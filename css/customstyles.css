@@ -200,7 +200,7 @@ header {
 }
 
 .bg-main {
-    background-image: url('../uploads/background-drone.jpg');
+    background-image: url('../assets/background-drone.jpg');
     padding-bottom: 400px;
     background-position: right center;
 }
@@ -219,21 +219,21 @@ header {
 .bg-8 {     background-color: #432198;}
 .bg-9 {     background-color: #693DD4;}
 
-.bg-img1 {    background-image: url('../uploads/flyarrow-cargo.jpg')}
-.bg-img2 {    background-image: url('../uploads/flyarrow-persontravel.jpg')}
-.bg-img3 {     background-image: url('../uploads/flyarrow-manageassets.jpg')}
-.bg-img4 {     background-image: url('../uploads/flyarrow-tourism.png')}
-.bg-img5 {     background-image: url('../uploads/flyarrow-agroculture.jpg')}
-.bg-img6 {     background-image: url('../uploads/flyarrow-farming.jpg')}
-.bg-img7 {     background-image: url('../uploads/flyarrow-manageassets.jpg')}
-.bg-img8 {     background-image: url('../uploads/flyarrow-infrastructure.jpg')}
-.bg-img9 {     background-image: url('../uploads/flyarrow-humanitarian.jpg')}
-.bg-img10 {     background-image: url('../uploads/flyarrow-supply.jpeg')}
-.bg-img11 {     background-image: url('../uploads/flyarrow-medicine.jpg')}
+.bg-img1 {    background-image: url('../assets/flyarrow-cargo.jpg')}
+.bg-img2 {    background-image: url('../assets/flyarrow-persontravel.jpg')}
+.bg-img3 {     background-image: url('../assets/flyarrow-manageassets.jpg')}
+.bg-img4 {     background-image: url('../assets/flyarrow-tourism.png')}
+.bg-img5 {     background-image: url('../assets/flyarrow-agroculture.jpg')}
+.bg-img6 {     background-image: url('../assets/flyarrow-farming.jpg')}
+.bg-img7 {     background-image: url('../assets/flyarrow-manageassets.jpg')}
+.bg-img8 {     background-image: url('../assets/flyarrow-infrastructure.jpg')}
+.bg-img9 {     background-image: url('../assets/flyarrow-humanitarian.jpg')}
+.bg-img10 {     background-image: url('../assets/flyarrow-supply.jpeg')}
+.bg-img11 {     background-image: url('../assets/flyarrow-medicine.jpg')}
 
 
 .cta-area {
-    background-image: url('../uploads/gradint.jpg');
+    background-image: url('../assets/gradint.jpg');
     margin-bottom: 120px;
     max-height: 400px;
 }
