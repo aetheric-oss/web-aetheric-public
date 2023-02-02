@@ -1,0 +1,289 @@
+/** CUSTOM STYLE **/
+
+
+
+
+/** COLORS **/
+
+:root {
+    --bs-body-color:  #1B202C;    
+    --bs-body-color-rgb: rgba(27,32,44,1);
+    --bs-body-bg: #fff;
+    --bs-body-bg-rgb: rgba(100,100,100, 1);
+    --arrow-darkblue  : #1B202C;
+    --arrow-darkblue-rgb  : rgba(27,32,44,1);
+    --arrow-light-muted-blue: #ECEDFE;
+    --arrow-highlight: #FF8A78;
+    --arrow-highlight-rgb: rgba(255,138, 120, 1);
+    --bs-btn-hover-border-color: #FF8A78!important;
+    --arrow-blue: #4060ff;
+    --arrow-blue-rgb: rgba(64, 96, 255, 1);
+    --arrow-rounded-radius: 50px;
+    --bs-card-color: #ECEDFE;  
+    --arrow-hover: #93a5ff;
+    --arrow-hover-rgb: rgba(147, 165, 255, 1);
+    --arrow-bg-grey: #f1f4ff;
+    --arrow-bg-grey: rgba(241, 244, 255, 0);
+    --arrow-light-color: #fff;
+    --arrow-light-color-rgb: rgba(255, 255, 255, 1);
+    
+}
+
+
+/** paddings **/
+
+.pt-5 { padding-top: 120px!important;}
+.py-5 { padding-top: 120px!important; padding-bottom: 120px!important;}
+.pb-5 {padding-bottom: 120px!important;}
+.p-5 { padding: 120px!important;}
+.pl-5  {padding-left: 120px!important;}
+.pr-5 { padding-right: 120px!important;}
+.px-5 { padding-left: 120px!important;padding-right: 120px!important;}
+
+/** FONTS **/
+
+h3, h4, h5, h6 {    font-family: 'Poppins', sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700;}
+
+h1 {
+    font-size: 84px;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.2;
+}
+h2 {
+    font-size: 48pt;
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    margin-top: 1em;
+margin-bottom: 1em;
+      font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+
+
+
+
+/** BUTTONS **/
+
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--arrow-highlight);
+    --bs-btn-border-color: var(--arrow-highlight);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--arrow-highlight);
+    --bs-btn-hover-border-color: var(--arrow-highlight);
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--arrow-highlight);
+    --bs-btn-active-border-color: var(--arrow-highlight);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--arrow-highlight);
+    --bs-btn-disabled-border-color: var(--arrow-highlight);
+}
+
+.btn-secondary {
+    --bs-btn-color: var(--arrow-highlight);
+  --bs-btn-border-color: var(--arrow-highlight);
+  --bs-btn-hover-bg: var(--arrow-highlight);
+    --bs-btn-bg: none;
+    
+}
+
+.btn {
+    transition-duration: 275ms;
+    transition-timing-function: ease;
+    border-radius: 0.5rem;
+    font-weight: 400; /** is 500 in webflow, but is not a weight from the brandbook **/
+    padding: 10px 19px;
+    border-width: 2px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.btn-darkbg > .btn-sec {
+  --bs-btn-color: var(--arrow-light-color);
+  --bs-btn-border-color: var(--arrow-light-color);
+  --bs-btn-hover-bg: var(--arrow-light-color);
+  --bs-btn-bg: none; 
+}
+
+.btn:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(194,46,23,1) 50%, rgba(255,138,120,1) 100%);
+    border-color: var(--arrow-highlight)!important;
+    color: #fff;
+}
+
+a {
+    color: var(--arrow-highlight);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+
+
+/** CARDS **/
+.card {
+    background-color: #f1f4ff;
+    border: 0px;
+}
+
+.card-top {
+--bs-card-spacer-x
+}
+
+.card .d-flex {
+    padding-left: 16px;
+padding-top: 16px;
+padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.special2 {
+    background-color: #fff;
+    
+}
+
+.special1 h2 {
+    font-size: 50px;
+}
+
+
+/** TAGS **/
+.tag {
+    color: #2abb94;
+    padding: 8px 16px;
+    border-radius: 25px;
+    background-color: #f8f9ff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/** CUSTOM **/
+header {
+    background-color: var(--arrow-darkblue);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.discover {
+    background-color: var(--arrow-blue);
+    color: var(--bs-body-bg);    
+}
+
+
+.discovercard {
+    height: 400px !important;
+    margin-bottom: 25px;
+}
+
+
+.about {
+    background-color: var(--arrow-blue);
+        color: var(--bs-body-bg);
+}
+
+.bg-image {
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-main {
+    background-image: url('../uploads/background-drone.jpg');
+    padding-bottom: 400px;
+    background-position: right center;
+}
+
+.bg-main-softwaredis {
+    margin-top: -350px;}
+
+
+.bg-1 {    background-color: var(--arrow-bg-grey);}
+.bg-2 {     background-color: #9173C0; }
+.bg-3 {     background-color: #DC7B9A;}
+.bg-4 {     background-color: #D9B16D;}
+.bg-5 {     background-color: #FFB2A2;}
+.bg-6 {     background-color: #E08D48;}
+.bg-7 {     background-color: #AB6397;}
+.bg-8 {     background-color: #432198;}
+.bg-9 {     background-color: #693DD4;}
+
+.bg-img1 {    background-image: url('../uploads/flyarrow-cargo.jpg')}
+.bg-img2 {    background-image: url('../uploads/flyarrow-persontravel.jpg')}
+.bg-img3 {     background-image: url('../uploads/flyarrow-manageassets.jpg')}
+.bg-img4 {     background-image: url('../uploads/flyarrow-tourism.png')}
+.bg-img5 {     background-image: url('../uploads/flyarrow-agroculture.jpg')}
+.bg-img6 {     background-image: url('../uploads/flyarrow-farming.jpg')}
+.bg-img7 {     background-image: url('../uploads/flyarrow-manageassets.jpg')}
+.bg-img8 {     background-image: url('../uploads/flyarrow-infrastructure.jpg')}
+.bg-img9 {     background-image: url('../uploads/flyarrow-humanitarian.jpg')}
+.bg-img10 {     background-image: url('../uploads/flyarrow-supply.jpeg')}
+.bg-img11 {     background-image: url('../uploads/flyarrow-medicine.jpg')}
+
+
+.cta-area {
+    background-image: url('../uploads/gradint.jpg');
+    margin-bottom: 120px;
+    max-height: 400px;
+}
+.rounded {border-radius: var(--arrow-rounded-radius)!important}
+
+.contact-img {
+    margin-top: -200px;
+}
+
+.list-group-item { 
+    border: none;
+    list-style-type: circle;
+    background-color: var(--arrow-light-color);
+}
+
+
+.faq {
+    background-color: var(--arrow-blue);
+}
+
+.accordion {
+    --bs-accordion-bg: none;}
+
+.message p {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border-radius: 50px!important;
+    margin-bottom: 5px; 
+} 
+
+.accordion-button {
+
+}
+.accordion-button:focus {
+    border-radius: 50px!important;
+}
+
+.accordion-button:not(.collapsed) {
+    border-top-right-radius: 30px!important;
+    border-top-left-radius: 30px!important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    background-color: #d5dcff;
+    border-color:  #d5dcff;
+}
+
+.accordion-body {
+    padding: 10px 35px 35px 35px;
+}
