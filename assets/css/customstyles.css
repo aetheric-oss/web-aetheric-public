@@ -78,6 +78,7 @@ nav {
 .discover {
     background-color: var(--bs-body-color);
     color: var(--bs-body-bg);
+    overflow-x: hidden;
 }
 
 .discover .btn {
