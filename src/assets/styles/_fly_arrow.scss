@@ -1,0 +1,349 @@
+/** FONTS **/
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+/** CARDS **/
+.card-header {
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+
+    .tag {
+        color: var(--bs-teal);
+        padding: 8px 16px;
+        border-radius: $border-radius-pill;
+        background-color: $gray-100;
+        text-transform: uppercase;
+        font-weight: $font-weight-semibold;
+    }
+
+}
+
+.card-title span {
+    font-weight: 300;
+}
+
+/** BUTTONS **/
+.btn {
+    transition-duration: 275ms;
+    transition-timing-function: ease;
+    border-radius: 0.5rem;
+    /** is 500 in webflow, but is not a weight from the brandbook **/
+    font-weight: 400;
+    padding: 10px 19px;
+    border-width: 2px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.btn-info {
+    --bs-btn-color: var(--bs-secondary);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-border-color: var(--bs-secondary);
+    --bs-btn-hover-bg: var(--bs-secondary);
+    --bs-btn-hover-border-color: var(--bs-secondary);
+    --bs-btn-bg: none;
+}
+
+.btn-info:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, var(--bs-red) 50%, rgba(var(--bs-secondary-rgb), 1) 100%);
+}
+
+.btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--bs-secondary);
+    --bs-btn-hover-border-color: var(--bs-secondary);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--bs-secondary);
+    --bs-btn-active-border-color: var(--bs-secondary);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--bs-secondary);
+    --bs-btn-disabled-border-color: var(--bs-secondary);
+}
+
+a,
+.btn-link {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    background-color: var(--bs-light);
+    mask: var(--logo);
+    -webkit-mask: var(--logo);
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    height: 3rem;
+    width: 12rem;
+    margin-top: 9px;
+
+    /* Hide the text. */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/** LISTS **/
+li {
+    text-transform: uppercase;
+    font-weight: $font-weight-bold;
+}
+
+/** ACCORDION **/
+.accordion {
+    --bs-accordion-bg: none;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border-radius: 50px !important;
+    margin-bottom: 5px;
+}
+
+.accordion-button:focus {
+    border-radius: 50px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    border-top-right-radius: 30px !important;
+    border-top-left-radius: 30px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    background-color: #d5dcff;
+    border-color: #d5dcff;
+}
+
+.accordion-body {
+    padding: 10px 35px 35px 35px;
+}
+
+/** OTHER **/
+nav {
+    background-color: var(--bs-black);
+    font-family: 'Poppins', sans-serif;
+}
+
+header p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+
+.infobox {
+    padding: 24px;
+    border: 1px solid #2abb94;
+    border-radius: 25px;
+    background-color: #2b7fa3;
+}
+
+.modal-content {
+    background-color: var(--bs-body-color);
+}
+
+.modal-content .btn-close {
+    --bs-btn-close-color: #000;
+}
+
+.modalimg {
+    width: 100%;
+    height: 200px;
+    border-radius: 24px;
+}
+
+.infobox h4 {
+    font-size: var(--bs-body-font-size);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/** SLIDES **/
+#banner {
+    margin-bottom: 30vw;
+    background-position: right center;
+    background: var(--arrow-bg-gradient-bottom-left-md), var(--arrow-bg-gradient-top-left-md), var(--arrow-bg-gradient-top-right-md), url('/img/drone.png') var(--bs-primary) no-repeat 160% 15% / 65%;
+
+    img {
+        margin-bottom: -35%;
+    }
+
+    @media (min-width: 576px) {
+        background: var(--arrow-bg-gradient-bottom-left-md), var(--arrow-bg-gradient-top-left-md), var(--arrow-bg-gradient-top-right-md), url('/img/drone.png') var(--bs-primary) no-repeat 180% 15% / 65%;
+    }
+
+    @media (min-width: 768px) {
+        background: var(--arrow-bg-gradient-bottom-left-md), var(--arrow-bg-gradient-top-left-md), var(--arrow-bg-gradient-top-right-md), url('/img/drone.png') var(--bs-primary) no-repeat 150% 20% / 65%;
+    }
+
+    @media (min-width: 992px) {}
+
+    @media (min-width: 1200px) {
+        background: var(--arrow-bg-gradient-bottom-left-xl), var(--arrow-bg-gradient-top-left-md), var(--arrow-bg-gradient-top-right-xl), url('/img/drone.png') var(--bs-primary) no-repeat 90% 20% / 35%;
+    }
+
+    @media (min-width: 1400px) {
+        margin-bottom: 15vw;
+        background: var(--arrow-bg-gradient-bottom-left-xl), var(--arrow-bg-gradient-top-left-md), var(--arrow-bg-gradient-top-right-xl), url('/img/drone.png') var(--bs-primary) no-repeat 90% 20% / 35%;
+    }
+}
+
+#flight-types {
+    .card-img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+#discover {
+    background-color: var(--bs-body-color);
+    color: var(--bs-body-bg);
+    overflow-x: hidden;
+
+    >div:nth-child(1) {
+        overflow: hidden;
+    }
+
+    .carousel {
+        margin-top: -400px;
+    }
+
+    .carousel>div:nth-child(1) {
+        margin-top: -250px;
+    }
+
+    .carousel>div:nth-child(3) {
+        margin-top: -350px;
+    }
+
+    .offcanvas {
+        --bs-offcanvas-bg: var(--bs-black);
+        --bs-offcanvas-color: var(--bs-white);
+        position: fixed;
+    }
+
+    @media (min-width: 768px) {
+        .offcanvas {
+            --bs-offcanvas-border-width: 0;
+            position: absolute;
+        }
+    }
+
+    .offcanvas.show,
+    .offcanvas.showing {
+        width: 100%;
+    }
+
+    .offcanvas .offcanvas-header {
+        padding-bottom: 0;
+    }
+
+    .offcanvas .offcanvas-body {
+        padding-top: 0;
+    }
+
+    .discovercard {
+        height: 400px !important;
+    }
+
+    .discovercard.bg-image {
+        cursor: zoom-in;
+    }
+
+    .discovercard.tourism {
+        background-image: url('/img/flyarrow-tourism.png')
+    }
+
+    .discovercard.agriculture {
+        background-image: url('/img/flyarrow-agriculture.jpg')
+    }
+
+    .discovercard.farming {
+        background-image: url('/img/flyarrow-farming.jpg')
+    }
+
+    .discovercard.infrastructure {
+        background-image: url('/img/flyarrow-infrastructure.jpg')
+    }
+
+    .discovercard.humanitarian {
+        background-image: url('/img/flyarrow-humanitarian.jpg')
+    }
+
+    .discovercard.supply {
+        background-image: url('/img/flyarrow-supply.jpeg')
+    }
+
+    .discovercard.medical {
+        background-image: url('/img/flyarrow-medicine.jpg')
+    }
+}
+
+#infrastructure {
+    .card {
+        min-width: 26vw;
+    }
+}
+
+#cta {
+    .bg-image {
+        background-color: rgb(var(--bs-primary-rgb));
+        background: var(--arrow-bg-gradient-bottom-left-md), var(--arrow-bg-gradient-top-right-md), var(--bs-primary);
+        max-height: 400px;
+    }
+
+    @media (min-width: 992px) {
+        .bg-image {
+            margin-top: 8vw;
+        }
+
+        .contact-img {
+            margin-top: -20%;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .bg-image {
+            background: var(--arrow-bg-gradient-bottom-left-xl), var(--arrow-bg-gradient-top-right-xl), var(--bs-primary);
+        }
+    }
+}
+
+#application {
+    .bg-image {
+        min-height: 15vw;
+    }
+
+    .lifestyle .bg-image {
+        background-image: url('/img/flyarrow-lifestyle.jpg')
+    }
+
+    .assets .bg-image {
+        background-image: url('/img/flyarrow-assets.jpg')
+    }
+
+    .logistics .bg-image {
+        background-image: url('/img/flyarrow-logistics.jpg')
+    }
+}
