@@ -24,3 +24,5 @@ smartlook
 ultrices
 vertiport
 vertiports
+vertipad
+vertipads
