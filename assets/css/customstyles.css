@@ -1,0 +1,251 @@
+@import "logo.css";
+@import "arrow-root.css";
+@import "bootstrap-custom-styles.css";
+
+.bg-main {
+    margin-bottom: 350px;
+    background-position: right center;
+    background: var(--arrow-bg-gradient-bottom-left), var(--arrow-bg-gradient-top-right), url('/assets/img/drone.png') var(--bs-primary) no-repeat 90% 20% / 35%;
+}
+
+.bg-main img {
+    margin-bottom: -30%;
+    max-width: 80%;
+}
+
+.logo {
+    background-color: var(--bs-teal);
+    mask: var(--logo);
+    -webkit-mask: var(--logo);
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    height: 3rem;
+    width: 12rem;
+
+    /* Hide the text. */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#svg18:hover {
+    fill: red;
+}
+
+/** CARDS **/
+.card {
+    background-color: var(--bs-light);
+    border: 0px;
+}
+
+.card .d-flex {
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.special2 {
+    background-color: #fff;
+}
+
+.special1 h2 {
+    font-size: 50px;
+}
+
+/** TAGS **/
+.tag {
+    color: var(--bs-teal);
+    padding: 8px 16px;
+    border-radius: 25px;
+    background-color: #f8f9ff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/** Lists **/
+li {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/** CUSTOM **/
+nav {
+    background-color: var(--bs-black);
+    font-family: 'Poppins', sans-serif;
+}
+
+.discover {
+    background-color: var(--bs-body-color);
+    color: var(--bs-body-bg);
+    overflow-x: hidden;
+}
+
+.discover .btn {
+    margin-bottom: 0 !important;
+    margin-right: 4px;
+}
+
+
+.discover .carousel {
+    margin-top: -400px;
+}
+
+.discover .carousel>div:nth-child(1) {
+    margin-top: -250px;
+}
+
+.discover .carousel>div:nth-child(3) {
+    margin-top: -350px;
+}
+
+.discover>div:nth-child(1) {
+    overflow: hidden;
+}
+
+.discover .offcanvas {
+    --bs-offcanvas-bg: var(--bs-black);
+    --bs-offcanvas-color: var(--bs-white);
+}
+
+.person-travel .bg-image {
+    background-image: url('/assets/img/flyarrow-persontravel.jpg')
+}
+
+.manage-assets .bg-image {
+    background-image: url('/assets/img/flyarrow-manageassets.jpg')
+}
+
+.cargo-freight .bg-image {
+    background-image: url('/assets/img/flyarrow-cargo.jpg')
+}
+
+.discovercard {
+    height: 400px !important;
+}
+
+.discovercard.bg-image {
+    cursor: zoom-in;
+    background-size: cover;
+}
+
+.discovercard.tourism {
+    background-image: url('/assets/img/flyarrow-tourism.png')
+}
+
+.discovercard.agriculture {
+    background-image: url('/assets/img/flyarrow-agroculture.jpg')
+}
+
+.discovercard.farming {
+    background-image: url('/assets/img/flyarrow-farming.jpg')
+}
+
+.discovercard.infrastructure {
+    background-image: url('/assets/img/flyarrow-infrastructure.jpg')
+}
+
+.discovercard.humanitarian {
+    background-image: url('/assets/img/flyarrow-humanitarian.jpg')
+}
+
+.discovercard.supply {
+    background-image: url('/assets/img/flyarrow-supply.jpeg')
+}
+
+.discovercard.medical {
+    background-image: url('/assets/img/flyarrow-medicine.jpg')
+}
+
+.cta-area {
+    background-color: rgb(var(--bs-primary-rgb));
+    background: var(--arrow-bg-gradient-bottom-left), var(--arrow-bg-gradient-top-right), var(--bs-primary);
+    margin-top: 200px;
+    margin-bottom: 120px;
+    max-height: 400px;
+}
+
+.contact-img {
+    margin-top: -200px;
+}
+
+.person-travel .bg-image {
+    background-image: url('/assets/img/flyarrow-persontravel.jpg')
+}
+
+.manage-assets .bg-image {
+    background-image: url('/assets/img/flyarrow-manageassets.jpg')
+}
+
+.cargo-freight .bg-image {
+    background-image: url('/assets/img/flyarrow-cargo.jpg')
+}
+
+.accordion {
+    --bs-accordion-bg: none;
+}
+
+.message p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border-radius: 50px !important;
+    margin-bottom: 5px;
+}
+
+.accordion-button:focus {
+    border-radius: 50px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    border-top-right-radius: 30px !important;
+    border-top-left-radius: 30px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    background-color: #d5dcff;
+    border-color: #d5dcff;
+}
+
+.accordion-body {
+    padding: 10px 35px 35px 35px;
+}
+
+
+.infobox {
+    padding: 24px;
+    border: 1px solid #2abb94;
+    border-radius: 25px;
+    background-color: #2b7fa3;
+}
+
+.modal-content {
+    background-color: var(--bs-body-color);
+}
+
+.modal-content .btn-close {
+    --bs-btn-close-color: #000;
+}
+
+.modalimg {
+    width: 100%;
+    height: 200px;
+    border-radius: 24px;
+}
+
+.infobox h4 {
+    font-size: var(--bs-body-font-size);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.card-title span {
+    font-weight: 300;
+}
+
+.flight-types .card-img {
+    width: 40px;
+    height: 40px;
+}
