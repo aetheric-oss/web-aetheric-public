@@ -178,7 +178,7 @@
                     <div class="card discovercard supply mb-2 mb-xxl-3 bg-image p-2 rounded text-center"
                         data-bs-toggle="offcanvas" data-bs-target="#supply-info">
                         <div class="card-body mt-4">
-                            <h3 class="card-title"> Supply </h3>
+                            <h3 class="card-title"> Supply Chain </h3>
                         </div>
                     </div>
                     <div class="card discovercard mb-2 mb-xxl-3 p-2 rounded text-center bg-blue">
@@ -211,7 +211,7 @@
                 <button type="button" class="btn btn-info me-1 mb-0" data-bs-toggle="offcanvas"
                     data-bs-target="#farming-info">Farming</button>
                 <button type="button" class="btn btn-info me-1 mb-0" data-bs-toggle="offcanvas"
-                    data-bs-target="#supply-info">Supply</button>
+                    data-bs-target="#supply-info">Supply Chain</button>
                 <button type="button" class="btn btn-info me-1 mb-0" data-bs-toggle="offcanvas"
                     data-bs-target="#humanitarian-info">Humanitarian</button>
                 <button type="button" class="btn btn-info me-1 mb-0" data-bs-toggle="offcanvas"
@@ -230,18 +230,23 @@
                     <h2 class="offcanvas-title" id="farming-info-header">Farming</h2>
                 </div>
                 <div class="offcanvas-body">
-                    <p>Farming can be challenging enough without having to overcome bad infrastructure and dependance on
-                        transportation. Say goodbye to conventional road transport and HELLO to using or owning your own
-                        flight assets.</p>
-                    <ul>
-                        <li>Transport cargo fast to new locations</li>
-                        <li>Get better cattle insemination quality through fast and on demand delivery methods</li>
-                    </ul>
+                    <p>
+                        Our state-of-the-art technology offers a variety of solutions to your farming needs. Be it land
+                        imaging, infestation control, or improving insemination quality through fast and on-demand delivery.
+                        Say goodbye to the limitations of traditional transportation methods and hello to increased
+                        productivity and profitability. With our VTOL platform, the sky’s the limit for your farming
+                        business.
+                    </p>
                     <div class="infobox">
-                        <img src="/img/Icon-padlock.svg" alt="Information" width="25px" height="25px">
                         <h4>Need help setting up ARROW for your farm business?</h4>
-                        <p>We are happy to show you the possibilities, create a strategy and connect you to partners to make
-                            the onboarding process smooth for you. <a href="#" target="_blank">Book a call with us</a>
+                        <p>
+                            We are happy to show you the possibilities, create a strategy and connect you to partners to
+                            make the onboarding process smooth for you. <a href="#" target="_blank">Book a call with us</a>
+                        </p>
+                        <h4>Are you an asset owner/operator with aircraft or vertiport(s)?</h4>
+                        <p>
+                            Deploy with us to avoid the complexity of scheduling and managing your assets. <a href="#"
+                                target="_blank">Deploy and start earning</a>
                         </p>
                     </div>
                 </div>
@@ -254,16 +259,22 @@
                     <h2 class="offcanvas-title" id="humanitarian-info-header">Humanitarian</h2>
                 </div>
                 <div class="offcanvas-body">
-                    <p>Monetize with expanding on efficient air infrastructure in areas where regular infrastructure is slow
-                        and expensive to maintain. Get ahead by deploying your own fleet and/or vertiports.</p>
-                    <ul>
-                        <li>Deploy your fleet really quickly and start monetizing this month</li>
-                        <li>Reach your target audience through a free for them to use application</li>
-                    </ul>
+                    <p>
+                        Quick and efficient transportation of essential supplies and personnel to disaster-stricken or
+                        hard-to-reach areas. Say goodbye to the limitations of traditional transportation methods and hello
+                        to increased speed and effectiveness in delivering aid. With our VTOL platform, we can make a real
+                        difference in the lives of those in need.
+                    </p>
                     <div class="infobox">
                         <h4>Need help setting up ARROW for your aircraft or vertiport(s)?</h4>
-                        <p>We are happy to show you the possibilities, create a strategy and connect you to partners to make
-                            the onboarding process smooth for you. <a href="#" target="_blank">Book a call with us</a>
+                        <p>
+                            We are happy to show you the possibilities, create a strategy and connect you to partners to
+                            make the onboarding process smooth for you. <a href="#" target="_blank">Book a call with us</a>
+                        </p>
+                        <h4>Are you an asset owner/operator with aircraft or vertiport(s)?</h4>
+                        <p>
+                            Deploy with us to avoid the complexity of scheduling and managing your assets. <a href="#"
+                                target="_blank">Deploy and start earning</a>
                         </p>
                     </div>
                 </div>
@@ -276,16 +287,21 @@
                     <h2 class="offcanvas-title" id="tourism-info-header">Tourism</h2>
                 </div>
                 <div class="offcanvas-body">
-                    <p>Monetize with expanding on efficient air infrastructure in area's where regular infrastructure is
-                        slow and expensive to maintain. Get ahead by deploying your own fleet and/or vertiports.</p>
-                    <ul>
-                        <li>Deploy your fleet really quickly and start monetizing this month</li>
-                        <li>Reach your target audience through a free for them to use application</li>
-                    </ul>
+                    <p>
+                        Experience and monetize the future of tourism transportation with our cutting-edge VTOL platform.
+                        Our advanced technology provides fast and efficient travel to even the most secluded and picturesque
+                        locations. Join today to bring your customers to stunning aerial views and unforgettable journeys.
+                    </p>
                     <div class="infobox">
                         <h4>Need help setting up ARROW for your aircraft or vertiport(s)?</h4>
-                        <p>We are happy to show you the possibilities, create a strategy and connect you to partners to make
-                            the onboarding process smooth for you. <a href="#" target="_blank">Book a call with us</a>
+                        <p>
+                            We are happy to show you the possibilities, create a strategy and connect you to partners to
+                            make the onboarding process smooth for you. <a href="#" target="_blank">Book a call with us</a>
+                        </p>
+                        <h4>Are you an asset owner/operator with aircraft or vertiport(s)?</h4>
+                        <p>
+                            Deploy with us to avoid the complexity of scheduling and managing your assets. <a href="#"
+                                target="_blank">Deploy and start earning</a>
                         </p>
                     </div>
                 </div>
@@ -298,16 +314,26 @@
                     <h2 class="offcanvas-title" id="agriculture-info-header">Agriculture</h2>
                 </div>
                 <div class="offcanvas-body">
-                    <p>Monetize with expanding on efficient air infrastructure in area's where regular infrastructure is
-                        slow and expensive to maintain. Get ahead by deploying your own fleet and/or vertiports.</p>
+                    <p>
+                        Introducing our cutting-edge VTOL platform - the future of agriculture logistics. Our
+                        state-of-the-art technology offers:
+                    </p>
                     <ul>
-                        <li>Deploy your fleet really quickly and start monetizing this month</li>
-                        <li>Reach your target audience through a free for them to use application</li>
+                        <li>Rapid transportation of goods and equipment to remote farmlands</li>
+                        <li>Reduced carbon footprint with eco-friendly technology</li>
+                        <li>Significant cost savings through increased efficiency</li>
+                        <li>High-quality products for healthier crops and higher yields</li>
                     </ul>
                     <div class="infobox">
                         <h4>Need help setting up ARROW for your aircraft or vertiport(s)?</h4>
-                        <p>We are happy to show you the possibilities, create a strategy and connect you to partners to make
-                            the onboarding process smooth for you. <a href="#" target="_blank">Book a call with us</a>
+                        <p>
+                            We are happy to show you the possibilities, create a strategy and connect you to partners to
+                            make the onboarding process smooth for you. <a href="#" target="_blank">Book a call with us</a>
+                        </p>
+                        <h4>Are you an asset owner/operator with aircraft or vertiport(s)?</h4>
+                        <p>
+                            Deploy with us to avoid the complexity of scheduling and managing your assets. <a href="#"
+                                target="_blank">Deploy and start earning</a>
                         </p>
                     </div>
                 </div>
@@ -317,19 +343,26 @@
                 <div class="offcanvas-header d-block">
                     <button type="button" class="btn btn-link ps-0" data-bs-dismiss="offcanvas"
                         aria-label="Close">Back</button>
-                    <h2 class="offcanvas-title" id="supply-info-header">Supply</h2>
+                    <h2 class="offcanvas-title" id="supply-info-header">Supply Chain</h2>
                 </div>
                 <div class="offcanvas-body">
-                    <p>Monetize with expanding on efficient air infrastructure in area's where regular infrastructure is
-                        slow and expensive to maintain. Get ahead by deploying your own fleet and/or vertiports.</p>
-                    <ul>
-                        <li>Deploy your fleet really quickly and start monetizing this month</li>
-                        <li>Reach your target audience through a free for them to use application</li>
-                    </ul>
+                    <p>
+                        Introducing our cutting-edge VTOL platform - the future of supply chain logistics. Our
+                        state-of-the-art technology allows for quick and efficient transportation of goods and materials to
+                        even the most remote locations. Say goodbye to the limitations of traditional transportation methods
+                        and hello to increased speed and reliability in your supply chain. With our VTOL platform, your
+                        business can reach new heights.
+                    </p>
                     <div class="infobox">
                         <h4>Need help setting up ARROW for your aircraft or vertiport(s)?</h4>
-                        <p>We are happy to show you the possibilities, create a strategy and connect you to partners to make
-                            the onboarding process smooth for you. <a href="#" target="_blank">Book a call with us</a>
+                        <p>
+                            We are happy to show you the possibilities, create a strategy and connect you to partners to
+                            make the onboarding process smooth for you. <a href="#" target="_blank">Book a call with us</a>
+                        </p>
+                        <h4>Are you an asset owner/operator with aircraft or vertiport(s)?</h4>
+                        <p>
+                            Deploy with us to avoid the complexity of scheduling and managing your assets. <a href="#"
+                                target="_blank">Deploy and start earning</a>
                         </p>
                     </div>
                 </div>
@@ -350,8 +383,14 @@
                     </ul>
                     <div class="infobox">
                         <h4>Need help setting up ARROW for your aircraft or vertiport(s)?</h4>
-                        <p>We are happy to show you the possibilities, create a strategy and connect you to partners to make
-                            the onboarding process smooth for you. <a href="#" target="_blank">Book a call with us</a>
+                        <p>
+                            We are happy to show you the possibilities, create a strategy and connect you to partners to
+                            make the onboarding process smooth for you. <a href="#" target="_blank">Book a call with us</a>
+                        </p>
+                        <h4>Are you an asset owner/operator with aircraft or vertiport(s)?</h4>
+                        <p>
+                            Deploy with us to avoid the complexity of scheduling and managing your assets. <a href="#"
+                                target="_blank">Deploy and start earning</a>
                         </p>
                     </div>
                 </div>
@@ -364,16 +403,23 @@
                     <h2 class="offcanvas-title" id="medical-info-header">Medical</h2>
                 </div>
                 <div class="offcanvas-body">
-                    <p>Monetize with expanding on efficient air infrastructure in area's where regular infrastructure is
-                        slow and expensive to maintain. Get ahead by deploying your own fleet and/or vertiports.</p>
-                    <ul>
-                        <li>Deploy your fleet really quickly and start monetizing this month</li>
-                        <li>Reach your target audience through a free for them to use application</li>
-                    </ul>
+                    <p>
+                        Experience the future of medical logistics with our cutting-edge VTOL platform. Our advanced
+                        technology provides fast and efficient transportation of essential medical supplies and personnel to
+                        even the most remote locations. Leave behind the constraints of traditional transportation methods
+                        and embrace increased speed and reliability in delivering critical care. With our VTOL platform, we
+                        can make a real difference in the lives of those in need.
+                    </p>
                     <div class="infobox">
                         <h4>Need help setting up ARROW for your aircraft or vertiport(s)?</h4>
-                        <p>We are happy to show you the possibilities, create a strategy and connect you to partners to make
-                            the onboarding process smooth for you. <a href="#" target="_blank">Book a call with us</a>
+                        <p>
+                            We are happy to show you the possibilities, create a strategy and connect you to partners to
+                            make the onboarding process smooth for you. <a href="#" target="_blank">Book a call with us</a>
+                        </p>
+                        <h4>Are you an asset owner/operator with aircraft or vertiport(s)?</h4>
+                        <p>
+                            Deploy with us to avoid the complexity of scheduling and managing your assets. <a href="#"
+                                target="_blank">Deploy and start earning</a>
                         </p>
                     </div>
                 </div>
@@ -744,5 +790,4 @@
                 <div class="btn btn-secondary">Request a meeting</div>
             </div>
         </div>
-    </div>
-</template>
+</div></template>
