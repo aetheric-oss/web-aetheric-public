@@ -7,7 +7,6 @@ node_modules
 
 # Nuxt build and generate output dirs
 .nuxt
-.output
 dist
 
 # Logs
