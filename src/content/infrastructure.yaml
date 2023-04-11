@@ -1,0 +1,39 @@
+banner:
+  title: Dynamic, rapid, point-to-point transit that flies above and beyond the competition.
+
+title: How does this work?
+subtitle: An insight into our open-source software and infrastructure setup.
+items:
+  - tag: Database
+    title: Secure Storage
+    content: |
+      Our database setup uses secure and fast storage and leverages caching solutions for faster response times.
+      This ensures that data is stored safely and can be accessed quickly, with frequently accessed data stored in
+      a cache for faster retrieval. By taking advantage of these technologies, we can provide our users with a
+      fast and secure database experience.
+  - tag: Servers
+    title: Locally Served
+    content: |
+      On a server local to your region, we take requests from shippers and operators to manage assets.
+      We utilize a robust microservice approach running on a multi-cloud platform allowing us to use edge servers
+      for faster response times. To ensure high availability, we use autoscaling clusters that adjust resources
+      based on demand. These technologies enable us to provide a seamless user experience.
+  - tag: Application
+    title: Shipper & Hangar UI
+    content: |
+      It starts with the client's needs. Shippers and operators use our user-friendly interfaces to make
+      deliveries and manage assets (aircraft, vertiports, hangars, and more!).
+  - tag: Application
+    title: Scheduling
+    content: |
+      If both vertiports and an aircraft are available for the desired delivery time, we will return a prospective
+      flight plan for your approval. We will handle all of the flight details so you can focus on your business.
+  - tag: Application
+    title: Integrated Payments
+    content: |
+      Operators get a slice of each flight. We handle payments from the customer.
+  - tag: Community
+    title: Development
+    content: |
+      Our open-source code is publicly available. We're a community of passionate developers from many backgrounds
+      and nations, each bringing a unique perspective to the table.

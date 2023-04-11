@@ -3,7 +3,7 @@ export default defineNuxtConfig({
     srcDir: 'src/',
     app: {
         head: {
-            titleTemplate: chunk => `FlyArrow.io${chunk && ' - ' + chunk}`,
+            titleTemplate: chunk => `FlyArrow.io`,
             meta: [
                 { hid: 'description', name: 'description', content: 'FlyArrow.io - Part of Arrow DAO' }
             ],
@@ -14,4 +14,5 @@ export default defineNuxtConfig({
         }
     },
     css: ['~/assets/styles/main.scss'],
+    modules: ['@nuxt/content'],
 })
