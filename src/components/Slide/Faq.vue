@@ -1,5 +1,5 @@
 <template>
-    <div id="faq" class="container-fluid py-5 faq text-bg-dark text-light">
+    <div id="faq" class="container-fluid py-3 py-lg-5 faq text-bg-dark text-light">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center pb-3">
@@ -19,7 +19,7 @@
                             </h2>
                             <div :id="'faq-content-' + index" class="accordion-collapse collapse"
                                 :aria-labelledby="'faq-heading-' + index" data-bs-parent="#accordion-faq">
-                                <SlideFaqAnswer class="accordion-body" :answer="item.answer" :id="index"/>
+                                <SlideFaqAnswer class="accordion-body" :answer="item.answer" :id="index" />
                             </div>
                         </div>
                     </template>
@@ -36,7 +36,7 @@
                             </h2>
                             <div :id="'faq-content-' + index" class="accordion-collapse collapse"
                                 :aria-labelledby="'faq-heading-' + index" data-bs-parent="#accordion-faq">
-                                <SlideFaqAnswer class="accordion-body" :answer="item.answer" :id="index"/>
+                                <SlideFaqAnswer class="accordion-body" :answer="item.answer" :id="index" />
                             </div>
                         </div>
                     </template>
@@ -47,5 +47,5 @@
 </template>
 
 <script setup>
-    const faq = await queryContent('faq').findOne();
+const faq = await queryContent('faq').findOne();
 </script>

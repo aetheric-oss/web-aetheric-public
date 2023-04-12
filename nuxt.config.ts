@@ -15,4 +15,11 @@ export default defineNuxtConfig({
     },
     css: ['~/assets/styles/main.scss'],
     modules: ['@nuxt/content'],
+    build: {
+        extend(config, ctx) {
+            if (ctx.isDev) {
+                config.build.sourcemap = 'hidden'
+            }
+        }
+    }
 })

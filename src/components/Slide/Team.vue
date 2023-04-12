@@ -1,5 +1,5 @@
 <template>
-    <div id="team" class="container-fluid py-5 about text-bg-primary">
+    <div id="team" class="container-fluid py-3 py-lg-5 text-bg-primary">
         <div class="container px-4">
             <div class="row d-flex align-items-center">
                 <div class="col-12 col-md-5 col-xl-3 p-2">

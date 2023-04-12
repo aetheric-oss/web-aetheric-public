@@ -1,5 +1,5 @@
 <template>
-    <div id="cta" class="container-fluid container-xl px-2 px-sm-3 px-xxl-5 pb-5 text-light">
+    <div id="cta" class="container-fluid container-xl px-2 px-sm-3 px-xxl-5 text-light">
         <div class="d-flex flex-row bg-image rounded">
             <div class="col-6 contact-img align-self-center">
                 <img class="img-fluid" src="/img/Untitled-2.png" alt="contact image">
