@@ -1,5 +1,5 @@
 <template>
-    <div id="flight-types" class="container-fluid container-xl px-2 px-sm-3 px-xxl-5 pb-3 pb-lg-5">
+    <div id="flight-types" class="container-fluid container-xl px-2 px-sm-3 px-xxl-5">
         <div class="row row-cols-1 row-cols-lg-3">
             <div v-for="(item, index) in flight_types.items" class="col mb-2 mb-lg-0">
                 <div class="card rounded h-100">

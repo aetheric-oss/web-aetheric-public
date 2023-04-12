@@ -1,5 +1,5 @@
 <template>
-    <div id="application" class="container-fluid container-xl px-2 px-sm-3 px-xxl-5 py-5 application">
+    <div id="application" class="container-fluid container-xl px-2 px-sm-3 px-xxl-5 application">
         <div class="row">
             <div class="col-12 text-center">
                 <h2>Two applications, various ways to use it</h2>

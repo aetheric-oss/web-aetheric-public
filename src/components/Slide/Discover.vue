@@ -194,7 +194,7 @@
 }
 </style>
 
-<script setup>
+<script setup lang="ts">
 const discover = await queryContent('discover').findOne();
 
 const carousel = ref(null);

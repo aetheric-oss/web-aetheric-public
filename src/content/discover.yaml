@@ -3,10 +3,18 @@ introduction: Discover how your industry can benefit from fast and affordable ca
 items:
   - id: supply-chain
     title: Supply Chain
-    subtitle: Reach further; deliver faster.
+    subtitle: Speed and flexibility never seen before.
     content: |
       <p>
-        Supply routes measured in minutes instead of hours...
+        Just like water flows through streams, rapid and frequent VTOL trips can seamlessly move through your
+        supply chain, connecting your points of interest with speed and flexibility. With our advanced technology,
+        you can control the throughput and speed of our VTOL fleets to ensure that your cargo arrives at its
+        destination on time and in perfect condition.
+      </p>
+      <p>
+        This level of control over your supply chain gives you the power to adapt to changing market demands and
+        respond quickly to unforeseen events. By using our VTOL cargo delivery platform, you can gain the
+        competitive edge you need to succeed in today's fast-paced business environment.
       </p>
   - id: rural-living
     title: Rural Living
@@ -54,7 +62,8 @@ items:
     subtitle: Shave valuable minutes, save precious lives.
     content:
       <p>
-        Leave behind the constraints of traditional transportation methods and embrace increased speed and reliability in delivering critical care.
+        Leave behind the constraints of traditional transportation methods and embrace increased speed and
+        reliability in delivering critical care.
       </p>
       <p>
         A rapid, secure, and reliable supply chain to clinics, hospitals, and rural doctors.

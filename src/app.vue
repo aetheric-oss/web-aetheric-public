@@ -21,19 +21,21 @@
 
     <SlideBanner />
 
-    <SlideFlightTypes />
+    <SlideFlightTypes class="mb-3 mb-lg-5" />
 
-    <SlideDiscover />
+    <SlideDiscover class="mb-3 mb-lg-5" />
 
-    <SlideInfrastructure />
+    <SlideInfrastructure class="mb-3 mb-lg-5" />
 
-    <!--<SlideConops />-->
+<!--
+    <SlideConops class="mb-3 mb-lg-5" />
+        -->
 
     <SlideTeam />
 
-    <SlideFaq />
+    <SlideFaq class="mb-3 mb-lg-5" />
 
-    <SlideExplore />
+    <SlideExplore class="mb-3 mb-lg-5" />
 
-    <SlideCTA />
+    <SlideCTA class="mb-3 mb-lg-5" />
 </template>
