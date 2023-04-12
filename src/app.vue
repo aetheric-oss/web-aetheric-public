@@ -27,7 +27,7 @@
 
     <SlideInfrastructure />
 
-    <SlideConops />
+    <!--<SlideConops />-->
 
     <SlideTeam />
 
