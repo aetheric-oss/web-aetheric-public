@@ -1,0 +1,20 @@
+items:
+  - tag: logistics
+    icon: Icon-vtolcargo.svg
+    title: Cargo <span>flights</span>
+    content: |
+      Revolutionize your middle-mile transport.
+      Easily schedule on-demand deliveries to public and private vertiports.
+      Let us automate the hassle of drone routing and civil aviation compliance and make your delivery a breeze.
+  - tag: access
+    icon: Icon-vtolcargo.svg
+    title: Vertiport <span>network</span>
+    content: |
+      Add a vertiport to our network to improve your own logistics, or open it up to the public to reach more customers.
+      Send cargo to any other public vertiport on the network.
+  - tag: control
+    icon: Icon-vtolcargo.svg
+    title: Asset <span>manager</span>
+    content: |
+      Manage your vertiports and aircraft with our one-stop-shop interface. Register, group, delegate, and maintain assets with ease.
+      Elevate your business with configurable pricing models and detailed analytics.
