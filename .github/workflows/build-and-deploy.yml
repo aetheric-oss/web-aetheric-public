@@ -28,9 +28,9 @@ jobs:
       AWS_S3_BUCKET: s3-${{ vars.ENVIRONMENT_ABBR }}-${{ vars.APP }}.${{ vars.DOMAIN }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Set up node ${{ inputs.node-version }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ inputs.node-version }}
           cache: yarn
@@ -39,7 +39,7 @@ jobs:
           GOOGLE_CLIENTID: ${{ secrets.GOOGLE_CLIENTID }}
         run: yarn install --frozen-lockfile
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: "arn:aws:iam::${{ secrets.AWS_ACCOUNT }}:role/${{ vars.ENVIRONMENT_ABBR }}-GitHubActionsWebsite"
           role-session-name: "github-actions-${{ github.event.repository.name }}-deploy"
