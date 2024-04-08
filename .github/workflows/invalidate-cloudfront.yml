@@ -26,7 +26,7 @@ jobs:
       contents: read
     steps:
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: "arn:aws:iam::${{ secrets.AWS_ACCOUNT }}:role/${{ vars.ENVIRONMENT_ABBR }}-GitHubActionsWebsite"
           role-session-name: "github-actions-${{ github.event.repository.name }}-cf-invalidate"
