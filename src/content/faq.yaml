@@ -1,30 +1,36 @@
 items:
-  - question: How can I run a business using Arrow's software?
+  - question: What makes this product different from any of the other drone scheduling apps we've seen?
     answer: |
-      1. **Ship:** You can use the Arrow network like a traditional parcel delivery service, booking shipments through our application and dropping off packages at a nearby vertiport.  Your customers can pick up packages at the destination vertiport.
-      2. **Operate:** Expand the Arrow network by owning cargo aircraft, vertiports, and hangars. The operators of these assets split the profits from every flight made with the Arrow network.
-
-      How can we integrate with your business? Let us know! :InterestFormLink{:text="Schedule a meeting"}.
-
-  - question: When will FlyArrow.io launch?
+      This is a great question. Other products allow you to perhaps draw a desired flight path for your drone, and maybe even submit it for approval. They may allow you to track your drone's flight and save logs.
+      Our product similarly allows you to create a flight plan, going several steps further. We calculate the shortest path for the plan, factoring in flight restrictions and no-fly zones. We see if your plan will intersect with other, existing flight plans. Our goal is U-Space certification, meaning we will have the authority to authorize flight directly if our (certified) processes determine it to be safe.
+      Other differences - open-source culture, small agile team, using bleeding edge tech.
+      Putting aside those commonalities - Our product wants to connect you with other entrepreneurs. We broker flights between vertiports owned by different parties, dynamically reserving pairs of vertipad landing times that are available for a requested flight’s itinerary. We identify nearby drones that can make the journey and have time in their schedule. We can, if allowed by the drone provider, auto-assign aircraft to do the delivery. It’s a hands-off way to generate traffic for your VTOL assets. You register a vertipad or drone and watch the bookings roll in
+      Our product is not just for the consumer of delivery services - it's for the entrepreneur. It's an onramp to the skies. You can own a drone or a dozen. You can own a vertipad on the roof of an apartment complex or the multi-story vertiport at the center of downtown. Our system will be easy to join with well-designed user interfaces, and your assets will very soon be generating income.
+  - question: What's the roadmap for the product?
     answer: |
-      We're currently in the development phase and collecting user input (like yours! :InterestFormLink{:text="get in contact"}).
-
-  - question: What is Arrow DAO?
+      One goal is a completely autonomous drone delivery system. Someone requests a delivery. Our system, as it currently does, determines the flight path and a good pairing of available landing time slots. It selects the best drone for the job - whoever owns it - factoring in distance, calculated charge, and payload.
+      Ideally, the drone would autonomously accept the work offer. It would detach from a charging platform like Swoop's Aviary, go pick up a standardized container with a standardized mechanism, similarly detach it at the destination, and fly to its next destination - or back to charging. Our system is pretty much designed with this in mind.
+      The vertiports themselves could also use conveyors to move the delivered parcels into a holding area, or directly to a pre-assigned locker below the vertipad.
+  - question: So you're a software product. Who will be providing the drones and vertiports?
     answer: |
-      Arrow DAO is the developing force behind FlyArrow.io. Arrow is an international cooperative that builds and funds open-source mobility projects.
-      :InterestFormLink{:text="Learn more."}
-
-  - question: How can I bring Arrow to my town?
+      We're creating software for the AAM market to autonomously fly fleets. It is also build as a marketplace. We think if we can offer a streamlined, simple-to-understand entrance to the market, and a good value proposition, then entrepreneurs will naturally flock to it and bring the hardware with them.
+      It's self-reinforcing as well - the more vertiports and drones on the network, the more attractive the network is. Competition will drive the costs down for individual flights.
+  - question: What if there are no vertiports on the network? How will drones work?
     answer: |
-      We're looking for early adopters! Please fill our our :InterestFormLink{:text="interest form"}.
-
-  - question: Can I invest in Arrow?
+      Our system is predicated on the concept of certified vertiports for takeoff and landing. However, we haven't ruled out improvised landing zones, especially in the case of an emergency.
+  - question: How have you funded development? Has anyone invested in your product?
     answer: |
-      More information coming soon.
-
-  - question: How can I contribute to this project?
+      We developed this project at first through the support of an organization called Arrow Air. They have a substantial grant pool and we've developed what we have so far through their generosity.
+      When we wanted to spin the project off into a business and take it here (to ADW), they were very open to the idea and provided us with a funding round. They're our first investor and non-owner shareholder.
+  - question: What's the benefit of being open-source?
     answer: |
-      Join the Arrow DAO [Discord!](https://discord.gg/arrow)
-      Find us under #services-general.
-
+      We originated from an open-source community, meaning all source code is available for public view, and we'll continue to develop in the open. We do this for transparency, to promote ethical decision-making, and to allow public audit.
+      We want the public to see for themselves that our software doesn't sell their data unknowingly or tilt the market unethically in favor of specific companies or demographics.
+  - question: How will you ensure your product isn't stolen?
+    answer: |
+      It's a good question. We are currently more accurately "source-available". You can see our codebase on GitHub. Our protection (in countries where these licenses are honored) is a BUSL license, which will transition to an AGPL license. This type of license means that someone else can indeed copy our code for their product, or use it as a backend (server only) for another product. However the terms of the license stipulate that their product must also be open-sourced. This usually dissuades a company from making a clone of the product, and instead direct their support the already existing one.  If they can make a competitive, better product that also remains open source, then all of the power to them. But with the time, research, and talent we've committed to this project already, we think that will be much easier said than done. And we hope that it’s a tool to focus finances and support onto our project, which is in a very manoeuvrable spot.
+  - question: Where are you planning on launching your product first?
+    answer: |
+      Our small team is based in the Netherlands, so a Dutch municipality/province that would be ideal regarding field tests. Wherever it is, we want to really put down roots and develop a strong program, and then expand from there. We’re looking for a place where we can have reliable, consistent dialogue with the stakeholders.
+      Any country in the EU embracing the U-Space standard is a fair target for us, especially those countries with geographically challenging terrain that can benefit tremendously from drone delivery (and eventually human rideshare) technology.
+      From the non-EU side, we also have interest from parties in West Texas, including a test zone, which can be a great opportunity for us to work with the FAA and gain some traction in the states. Our primary shareholder is building an ultralight aircraft production facility there so we would have lots of support where that’s concerned.

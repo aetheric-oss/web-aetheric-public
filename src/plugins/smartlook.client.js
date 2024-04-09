@@ -16,7 +16,7 @@ export default () => {
         h.appendChild(c);
       })(document);
 
-    smartlook('init', '3d8cc3fad36fd64fa8461c440815b246c3b75961', {
+    smartlook('init', '8cb5dedb29eece98911dfa11592e5de2b3957c3a', {
       region: 'eu',
     });
   });

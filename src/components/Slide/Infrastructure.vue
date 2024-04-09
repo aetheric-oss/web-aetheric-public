@@ -1,11 +1,14 @@
 <template>
-    <div ref="slider" id="infrastructure" class="container-fluid overflow-hidden user-select-none clearfix px-5"
-        v-on:mousemove="move" v-on:mousedown="startDragging" v-on:mouseup="stopDragging" v-on:mouseleave="stopDragging">
-        <div class="container pb-5">
+    <div class="container-fluid">
+        <div class="container pb-3 pt-5">
             <div class="row text-center">
                 <h2>{{ infrastructure.banner.title }}</h2>
             </div>
         </div>
+    </div>
+    <div ref="slider" id="infrastructure" class="container-fluid overflow-hidden user-select-none clearfix px-5 pb-3"
+        v-on:mousemove="move" v-on:mousedown="startDragging" v-on:mouseup="stopDragging" v-on:mouseleave="stopDragging">
+
         <div class="row float-start flex-lg-nowrap">
             <div class="col-12 col-lg mb-2 mb-lg-0">
                 <div class="card rounded bg-white">
@@ -29,6 +32,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="text-center pb-5">
+        <a class="btn btn-primary mb-3 mt-1" href="#" target="_blank" role="button">Read the conops</a>
     </div>
 </template>
 

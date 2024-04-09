@@ -1,27 +1,15 @@
 $black: #181c27;
-$black-rgb: 24,
-28,
-39;
+$black-rgb: 24, 28, 39;
 $white: #fff;
-$white-rgb: 100,
-100,
-100;
+$white-rgb: 100, 100, 100;
 $light: #f1f4ff;
-$light-rgb: 241,
-244,
-255;
+$light-rgb: 241, 244, 255;
 $gray-dark: #3d414c;
-$gray-dark-rgb: 61,
-65,
-76;
+$gray-dark-rgb: 61, 65, 76;
 $primary: #4060ff;
-$primary-rgb: 64,
-96,
-255;
-$secondary: #FF8A78;
-$secondary-rgb: 255,
-138,
-120;
+$primary-rgb: 64, 96, 255;
+$secondary: #ff8a78;
+$secondary-rgb: 255, 138, 120;
 $info: $secondary;
 $info-rgb: $secondary-rgb;
 $link-color: $secondary;
@@ -29,14 +17,14 @@ $link-color-rgb: $secondary-rgb;
 
 $red: #c22e17;
 $teal: #2abb94;
-$purple: #9173C0;
-$pink: #DC7B9A;
-$yellow: #D9B16D;
-$salmon: #FFB2A2;
-$orange: #E08D48;
-$magenta: #AB6397;
+$purple: #9173c0;
+$pink: #dc7b9a;
+$yellow: #d9b16d;
+$salmon: #ffb2a2;
+$orange: #e08d48;
+$magenta: #ab6397;
 $blue: #432198;
-$indigo: #693DD4;
+$indigo: #693dd4;
 
 $body-color: $black;
 $body-color-rgb: $black-rgb;
@@ -45,9 +33,10 @@ $body-bg-rgb: $white-rgb;
 $border-radius: 50px;
 
 $spacer: 2rem;
-$spacers: (0: 0,
-    1: $spacer * .25,
-    2: $spacer * .5,
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
     3: $spacer * 1.5,
     4: $spacer * 2,
     5: $spacer * 2.5,
@@ -55,12 +44,11 @@ $spacers: (0: 0,
 
 $font-size-base: 1rem;
 
-$headings-font-family: 'Poppins',
-sans-serif;
+$headings-font-family: 'Poppins', sans-serif;
 $headings-font-weight: 700;
 $h1-font-size: calc(($font-size-base * 1.5) + (#{2.5} * 1.5vw));
 $h2-font-size: calc(($font-size-base * 1.2) + (#{1.5} * 1.5vw));
-$h3-font-size: calc(($font-size-base * 1) + .5vw);
+$h3-font-size: calc(($font-size-base * 1) + 0.5vw);
 
 // cards
 $card-bg: $light;
