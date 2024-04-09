@@ -28,7 +28,7 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: "arn:aws:iam::${{ secrets.AWS_ACCOUNT }}:role/${{ vars.ENVIRONMENT_ABBR }}-GitHubActionsWebsite"
+          role-to-assume: "${{ secrets.AWS_GITHUBACTIONS_ROLE_ARN }}"
           role-session-name: "github-actions-${{ github.event.repository.name }}-cf-invalidate"
           aws-region: "${{ vars.AWS_REGION }}"
       - name: Create Invalidation
