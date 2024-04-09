@@ -1,5 +1,5 @@
 <template>
-    <div id="faq" class="container-fluid py-3 py-lg-5 faq text-bg-dark text-light">
+    <div id="faq" class="container-fluid py-3 py-lg-5 faq bg-dark text-light bg-print">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center pb-3">
@@ -7,7 +7,7 @@
                 </div>
             </div>
             <div class="row accordion accordion-flush" id="accordion-faq">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <template v-for="(item, index) in faq.items">
                         <div v-if="index % 2 === 0" class="accordion-item">
                             <h2 class="accordion-header" :id="'faq-heading-' + index">
@@ -24,7 +24,7 @@
                         </div>
                     </template>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <template v-for="(item, index) in faq.items">
                         <div v-if="index % 2 !== 0" class="accordion-item">
                             <h2 class="accordion-header" :id="'faq-heading-' + index">
