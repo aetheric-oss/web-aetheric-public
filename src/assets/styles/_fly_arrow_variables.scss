@@ -6,19 +6,19 @@ $light: #f1f4ff;
 $light-rgb: 241, 244, 255;
 $gray-dark: #3d414c;
 $gray-dark-rgb: 61, 65, 76;
-$primary: #4060ff;
-$primary-rgb: 64, 96, 255;
-$secondary: #ff8a78;
-$secondary-rgb: 255, 138, 120;
+$secondary: #2abb94;
+$secondary-rgb: 42, 187, 14;
+$primary: #ff5E45;
+$primary-rgb: 255, 98, 74;
 $info: $secondary;
 $info-rgb: $secondary-rgb;
-$link-color: $secondary;
-$link-color-rgb: $secondary-rgb;
+$link-color: $primary;
+$link-color-rgb: $primary-rgb;
 
 $red: #c22e17;
 $teal: #2abb94;
-$purple: #9173c0;
-$pink: #dc7b9a;
+$purple: #5060fe;
+$pink: #da57b7;
 $yellow: #d9b16d;
 $salmon: #ffb2a2;
 $orange: #e08d48;
@@ -31,6 +31,7 @@ $body-color-rgb: $black-rgb;
 $body-bg: $white;
 $body-bg-rgb: $white-rgb;
 $border-radius: 50px;
+$body-secondary-color: #545a6b;
 
 $spacer: 2rem;
 $spacers: (

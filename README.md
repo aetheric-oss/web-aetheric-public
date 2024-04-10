@@ -1,8 +1,9 @@
 # web-template-nuxt
 Arrow Web Application Template - Nuxt Web Applications
 
-## SVG optimization
+# Useful tools
 
+## SVG optimization
 https://jakearchibald.github.io/svgomg/
 
 ### transform into data uris
