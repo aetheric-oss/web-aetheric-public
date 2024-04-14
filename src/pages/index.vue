@@ -49,8 +49,8 @@
         <div class="container pb-3 text-center">
             <h2>Kickstart your VTOL management</h2>
             <p class="mx-auto" style="max-width: 600px">
-                Access an ecosystem of tech solutions to level up your VTOL
-                business or seamlessly connect to one of the microservices.
+                Access an ecosystem of tech solutions to level up your
+                business and connect seamlessly to the VTOL network.
             </p>
         </div>
         <div class="container">
@@ -58,12 +58,12 @@
                 <div
                     class="col p-3 bg-light rounded mx-2 mb-sm-2"
                 >
-                    <h3>Discover our software features</h3>
+                    <h3>Discover</h3>
                     <p>
-                        We cracked the code to a smooth, safe and secure AAM
-                        ecosystem that will help you operate your business.
+                        Our <b>Realm</b> network and interactive <b>Hangar</b> software work
+                        together to make your business soar. Explore our user-friendly interfaces, manage your fleet, and book itineraries with just a few taps.
                     </p>
-                    <p>Find out what features benefit you.</p>
+                    <p>We offer benefits to early adopters and new partners.</p>
                     <a
                         class="btn btn-primary mt-1"
                         href="/features"
@@ -74,12 +74,11 @@
                 <div
                     class="col p-3 bg-light rounded mx-2 mb-sm-2"
                 >
-                    <h3>Understand our tech</h3>
+                    <h3>Understand</h3>
                     <p>
-                        Embracing open source code, to create a collaborative
-                        ecosystem where innovation thrives globally
+                        We are open-source! We champion transparency in both code and administration.
+                        <br><br>Explore our tech stack to see how we keep our systems performant and fault tolerant.
                     </p>
-                    <p>We offer benefits to early adapters and new partners.</p>
                     <a
                         class="btn btn-outline-primary mt-1"
                         href="/docs"

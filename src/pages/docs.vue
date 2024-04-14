@@ -15,24 +15,26 @@
     <div class="container-fluid">
         <div class="container pt-5 text-center">
             <h2>
-                Offer your users a safe, fast and pleasant experience from your
-                AAM services
+                Use our hosted services or a private solution
             </h2>
             <p class="m-auto" style="max-width: 600px">
-                The adoption of the AAM industry in the world will go hand in
-                hand with the ease of use, the felt safety and the speed of
-                which users use the software that will drive it.
+                We offer a range of services to help you get started with Aetheric.
+                One of the options is to use our primary network (<b>Realm</b>), where we take care of
+                the infrastructure and maintenance. Another option is to deploy a
+                private solution for your fleets with our support.
             </p>
+            <br>
             <div class="d-flex flex-wrap justify-content-center gap-2">
                 <div class="tag fs-6">Microservices</div>
                 <div class="tag fs-6">Scalable</div>
                 <div class="tag fs-6">High Safety Protocol</div>
                 <div class="tag fs-6">API Connection</div>
             </div>
+            <br>
             <img
-                src="/img/aetheric-tech.webp"
+                src="/img/aetheric-interfaces.png"
                 alt="Aetheric tech structure"
-                style="max-width: 100%; height: auto"
+                style="max-width: 65%; height: auto"
             />
         </div>
     </div>
@@ -40,10 +42,10 @@
         <div class="p-4 bg-light rounded">
             <h3>Embracing the power of open source</h3>
             <p>
-                Embracing open source code, to create a collaborative ecosystem
-                where innovation thrives globally
+                Embracing open-source code for transparency, public audit,
+                collaboration, and innovation.
             </p>
-            <p>We offer benefits to early adapters and new partners.</p>
+            <p>We offer benefits to early adopters and new partners.</p>
             <a
                 class="btn btn-outline-primary mb-3 mt-1"
                 href="https://github.com/aetheric-oss"

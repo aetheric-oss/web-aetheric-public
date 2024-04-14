@@ -3,9 +3,9 @@ export default defineNuxtConfig({
     srcDir: 'src/',
     app: {
         head: {
-            titleTemplate: chunk => `FlyArrow.io`,
+            titleTemplate: chunk => `Aetheric B.V.`,
             meta: [
-                { hid: 'description', name: 'description', content: 'FlyArrow.io - Part of Arrow DAO' }
+                { hid: 'description', name: 'description', content: 'Aetheric B.V. (est. 2024)' }
             ],
             link: [
                 { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@200;400;700;800&display=swap' },

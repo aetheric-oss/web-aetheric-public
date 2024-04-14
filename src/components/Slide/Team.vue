@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-12 col-md-7 col-xl-9">
                     <h3>
-                        FlyArrow.io is proudly supported by Arrow DAO, an
+                        Aetheric B.V. is proudly supported by Arrow DAO, an
                         international organization advancing human mobility
                         through open-source designs.
                     </h3>

@@ -7,15 +7,14 @@ items:
   - tag: Database
     title: Secure Storage
     content: |
-      Our database setup uses secure and fast storage and leverages caching solutions for faster response times.
-      This ensures that data is stored safely and can be accessed quickly, with frequently accessed data stored in
+      Our database uses a secure and fast storage solution that leverages caching solutions for faster response times.
+      This ensures that data is stored safely, is highly fault tolerant, and can be accessed quickly, with frequently accessed data stored in
       a cache for faster retrieval. By taking advantage of these technologies, we can provide our users with a
       fast and secure database experience.
   - tag: Servers
-    title: Locally Served
+    title: Regionally Served
     content: |
-      On a server local to your region, we take requests from shippers and operators to manage assets.
-      We utilize a robust microservice approach running on a multi-cloud platform allowing us to use edge servers
+      We utilize a robust microservice approach running on a multi-cloud platform allowing us to use regional edge servers
       for faster response times. To ensure high availability, we use autoscaling clusters that adjust resources
       based on demand. These technologies enable us to provide a seamless user experience.
   - tag: Application
@@ -26,14 +25,15 @@ items:
   - tag: Application
     title: Scheduling
     content: |
-      If both vertiports and an aircraft are available for the desired delivery time, we will return a prospective
-      flight plan for your approval. We will handle all of the flight details so you can focus on your business.
+      Instant itinerary creation. Automated flight routing, regional compliance, aircraft selection, and vertiport booking. Schedule
+      deliveries with your fleet (or with aircraft for hire) in just a few taps. Leave the complexities of aerial logistics and compliance to us,
+      so you can take to the sky faster.
   - tag: Application
     title: Integrated Payments
     content: |
-      Operators get a slice of each flight. We handle payments from the customer.
+      Configure your dynamic pricing models to set fees per flight. We'll handle payments from the customer, taking only a modest fee for managing the flight.
   - tag: Community
     title: Development
     content: |
-      Our open-source code is publicly available. We're a community of passionate developers from many backgrounds
-      and nations, each bringing a unique perspective to the table.
+      We originated from an open-source community, meaning all source code is available for public view, and we'll continue to develop in the open. We do this for transparency, to promote ethical decision-making, and to allow public audit.
+      We want the public to see for themselves that their data is safe, and that we don't bias our software in favor of specific companies or demographics.

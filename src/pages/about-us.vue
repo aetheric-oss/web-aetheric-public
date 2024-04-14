@@ -9,17 +9,11 @@
         <h2>Open Source is in our DNA</h2>
         <div class="mx-auto" style="max-width: 600px">
             <p>
-                The vision of Aetheric was clear from the beginning; the VTOL
-                industry should be globally available.
+                The vision of Aetheric was clear from the beginning: to forge better connections between us and make the VTOL industry accessible to everyone.
             </p>
             <p>
-                Our technology will allow numerous operators and asset owners to
-                coordinate vertiport and VTOL access on a collectively grown
-                network.
-            </p>
-            <p>
-                Towards the future we are looking for partners that want to grow
-                with us and have all benefits that come with it.
+                Our team is small, cross-disciplined, flexible, and determined. We have great chemistry and a drive for automation. At our early stage, we are currently looking for partners that want to grow
+                alongside us and capture the needs of this new era.
             </p>
             <img
                 src="/img/team-aetheric-handsig.webp"
@@ -34,31 +28,28 @@
 
     <div class="container py-5 d-flex flex-wrap">
         <div class="col">
-            <h2>The journey started in 2021..</h2>
+            <h2>2021</h2>
             <p>
-                When the world of VTOL started to unfold, a startup investor
-                from the USA decided to fund an organization called ARROW folded
-                into the form of a DAO. This decentralized autonomous
-                organization finds its history in the crypto scene, where a new
-                form of business was needed. DAO's generally are used as a
-                creative hub to solve new user journeys as the essence of it
-                pushes its members to debate, philosophy and decide as a team
-                what direction to take. The ARROW DAO's only mission is to
-                create a future where VTOLs are available for everyone.
+                Aetheric proudly traces its origins to the organization <a href="https://arrowair.com" alt="Arrow DAO website">Arrow DAO</a>.
+                Founded during a time of rapid advancement in drone and passenger VTOL technology,
+                this decentralized autonomous organization set out to engineer open-source VTOL technologies.
+                More than just a new approach to engineering,
+                the DAO serves as a creative hub and forum for members to spread optimism for the future.
+                The community votes on DAO-wide decisions, including which projects to fund.
             </p>
             <p>
-                People started joining the community, teams started to form and
-                within no-time various projects started. The first is an
-                engineering team based in Turkey who are developing an actual
-                vehicle. The second team standing strong started the development
-                for software. And what started as a rideshare platform now has
-                the base to become one of the most trusted AAM ecosystems out
-                there.
+                One of the earliest projects to be funded by Arrow DAO, our team proposed an airspace
+                management and vertiport scheduling system to anticipate the demands of a VTOL world.
+                Taking cues from the
+                <a href="https://ntrs.nasa.gov/api/citations/20230002647/downloads/NASA-TM-20230002647_Final.pdf" alt="NASA UAM Research Roadmap">NASA UAM Roadmap</a> and <a href="https://www.sesarju.eu/U-space" alt="About U-space">U-space standard</a>, we built out
+                a flexible and scalable microservice architecture that could adapt to the needs
+                of evolving regulation. We invested time aggressively in workflow automation and
+                infrastructure-as-code to be as productive and flexible to change as possible.
             </p>
             <p>
-                As the product developed, our team also formed a strong base.
-                Aetheric has a team of freelancers behind it and has three
-                core-members steering it
+                As the product developed, our team also formed a strong base with great chemistry.
+                Aetheric is a cross-disciplinary team with just three
+                core members at the helm:
                 <a href="https://www.linkedin.com/in/lottesara/" target="_blank"
                     >Lotte Laan</a
                 >,
@@ -68,15 +59,14 @@
                 and
                 <a href="https://www.linkedin.com/in/smitham42/" target="_blank"
                     >Geertje Ruitenburg</a
-                >. A powerful trio that combines over half a century of
-                knowledge in software development.
+                >. Along with contributions from freelance developers and designers,
+                our powerful trio produced working prototypes for both the <b>Realm</b> network and the <b>Hangar</b> software.
             </p>
             <p>
-                As happens with most DAO products, the software was growing up
-                and needed a more regular shape of business to further grow,
-                being able to attract new investors, customers and work with
-                government organizations. Aetheric was born with ARROW still at
-                the core of it.
+                With stellar results and a successful DAO-wide vote for a funding round, our team elected to take
+                the next step forward and establish Aetheric B.V. (est. 2024). We're now in the process of meeting
+                new investors and prospective users. Arrow DAO is a major non-owner shareholder in our venture
+                and continues to be a strong supporter of our mission.
             </p>
         </div>
         <div class="col text-center">
