@@ -40,5 +40,5 @@
 </style>
 
 <script setup>
-    const flight_types = await queryContent("en/flight_types").findOne();
+    const flight_types = await queryContent("flight_types").findOne();
 </script>

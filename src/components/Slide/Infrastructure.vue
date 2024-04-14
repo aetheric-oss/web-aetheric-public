@@ -1,21 +1,35 @@
 <template>
-    <div ref="slider" id="infrastructure" class="container-fluid overflow-hidden user-select-none clearfix px-5"
-        v-on:mousemove="move" v-on:mousedown="startDragging" v-on:mouseup="stopDragging" v-on:mouseleave="stopDragging">
-        <div class="container pb-5">
+    <div class="container-fluid">
+        <div class="container pb-3 pt-5">
             <div class="row text-center">
                 <h2>{{ infrastructure.banner.title }}</h2>
             </div>
         </div>
+    </div>
+    <div
+        ref="slider"
+        id="infrastructure"
+        class="container-fluid overflow-hidden user-select-none clearfix px-5 pb-3"
+        v-on:mousemove="move"
+        v-on:mousedown="startDragging"
+        v-on:mouseup="stopDragging"
+        v-on:mouseleave="stopDragging"
+    >
         <div class="row float-start flex-lg-nowrap">
             <div class="col-12 col-lg mb-2 mb-lg-0">
                 <div class="card rounded bg-white">
                     <div class="card-body">
                         <h2 class="card-title">{{ infrastructure.title }}</h2>
-                        <div class="card-text">{{ infrastructure.subtitle }}</div>
+                        <div class="card-text">
+                            {{ infrastructure.subtitle }}
+                        </div>
                     </div>
                 </div>
             </div>
-            <div v-for="(item, index) in infrastructure.items" class="col-12 col-lg mb-2 mb-lg-0">
+            <div
+                v-for="(item, index) in infrastructure.items"
+                class="col-12 col-lg mb-2 mb-lg-0"
+            >
                 <div class="card rounded">
                     <div class="card-header bg-light">
                         <span class="tag">
@@ -23,46 +37,57 @@
                         </span>
                     </div>
                     <div class="card-body">
-                        <h3 class="card-title">{{ index + 1 }}. {{ item.title }}</h3>
+                        <h3 class="card-title">
+                            {{ index + 1 }}. {{ item.title }}
+                        </h3>
                         <div class="card-text" v-html="item.content"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="text-center pb-5">
+        <a
+            class="btn btn-primary mb-3 mt-1"
+            href="#"
+            target="_blank"
+            role="button"
+            >Read the conops</a
+        >
+    </div>
 </template>
 
 <style lang="scss">
-#infrastructure {
-    .card {
-        min-width: 26vw;
+    #infrastructure {
+        .card {
+            min-width: 26vw;
+        }
     }
-}
 </style>
 
 <script setup lang="ts">
-const infrastructure = await queryContent('infrastructure').findOne();
+    const infrastructure = await queryContent("en/infrastructure").findOne();
 
-const slider = ref(null);
-const mouseDown = ref(false);
-const startX = ref(null);
-const scrollLeft = ref(null);
+    const slider = ref(null);
+    const mouseDown = ref(false);
+    const startX = ref(null);
+    const scrollLeft = ref(null);
 
-function startDragging(e) {
-    mouseDown.value = true;
-    startX.value = e.pageX - slider.value.offsetLeft;
-    scrollLeft.value = slider.value.scrollLeft;
-};
-function stopDragging(e) {
-    mouseDown.value = false;
-};
-function move(e) {
-    e.preventDefault();
-    if (!mouseDown.value) {
-        return;
+    function startDragging(e) {
+        mouseDown.value = true;
+        startX.value = e.pageX - slider.value.offsetLeft;
+        scrollLeft.value = slider.value.scrollLeft;
     }
-    const x = e.pageX - slider.value.offsetLeft;
-    const scroll = x - startX.value;
-    slider.value.scrollLeft = scrollLeft.value - scroll;
-}
+    function stopDragging(e) {
+        mouseDown.value = false;
+    }
+    function move(e) {
+        e.preventDefault();
+        if (!mouseDown.value) {
+            return;
+        }
+        const x = e.pageX - slider.value.offsetLeft;
+        const scroll = x - startX.value;
+        slider.value.scrollLeft = scrollLeft.value - scroll;
+    }
 </script>
