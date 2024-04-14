@@ -8,7 +8,7 @@
             </p>
             <p>
                 It all starts with a simple conversation and getting to know
-                each other. Lets chat.
+                each other. Let's chat!
             </p>
         </div>
         <BlockGetInTouch/>

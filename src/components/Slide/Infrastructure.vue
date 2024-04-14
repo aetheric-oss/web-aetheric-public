@@ -49,7 +49,7 @@
     <div class="text-center pb-5">
         <a
             class="btn btn-primary mb-3 mt-1"
-            href="#"
+            href="https://github.com/aetheric-oss/se-services/blob/develop/docs/conops.md"
             target="_blank"
             role="button"
             >Read the conops</a

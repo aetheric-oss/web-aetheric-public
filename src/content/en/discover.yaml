@@ -6,9 +6,9 @@ items:
     subtitle: Speed and flexibility never seen before.
     content: |
       <p>
-        Just like water flows through streams, rapid and frequent VTOL trips can seamlessly move through your
-        supply chain, connecting your points of interest with speed and flexibility. With our advanced technology,
-        you can control the throughput and speed of our VTOL fleets to ensure that your cargo arrives at its
+        Like water through a stream, rapid and frequent VTOL flights can flow seamlessly through your
+        supply chain, connecting your points of interest with speed and flexibility. With our advanced scheduling
+        and asset management tools, you have direct control over your VTOL fleets. Get your cargo to its
         destination on time and in perfect condition.
       </p>
       <p>
@@ -18,14 +18,14 @@ items:
       </p>
   - id: rural-living
     title: Rural Living
-    subtitle: VTOL aircraft offer fast and affordable delivery to remote destinations, without expensive road infrastructure or airports.
+    subtitle: VTOL aircraft offer fast and affordable delivery to remote destinations, without expensive road infrastructure.
     content: |
       <p>
-          Connect your town, resort, homestead, or campground to the Arrow network and get the supplies you need
+          Add a vertipad to your town, resort, homestead, or campground and get the supplies you need
           fast! Vertical-takeoff-and-landing (VTOL) drones can pick up and deliver cargo from a pad no larger than
           a parking space. Our aerial network is a great solution for remote or geographically isolated locales,
-          cheaply and securely connecting communities separated by forests, deserts, rivers, lakes, mountains, and
-          unreliable road conditions.
+          cheaply and securely connecting communities kept apart by forests, deserts, rivers, lakes, mountains, or
+          scarce infrastructure.
       </p>
   - id: humanitarian
     title: Humanitarian
@@ -43,8 +43,8 @@ items:
     subtitle: Reach further afield
     content: |
       <p>
-          Aerial delivery networks are an optimal solution for farms and homesteads. Reliably deliver hardware,
-          groceries, and other goods regardless of road conditions. Cut your delivery time with direct aerial
+          Aerial delivery networks are an optimal solution for farms and homesteads. Rapidly and reliably deliver
+          hardware, groceries, and other goods regardless of road conditions. Cut your delivery time with direct aerial
           routes and save on refrigeration costs. Optionally deploy your own cargo drones for greater control over
           your deliveries.
       </p>

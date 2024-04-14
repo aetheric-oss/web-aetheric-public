@@ -5,21 +5,21 @@ items:
     content: |
       Revolutionize your transport.
       Easily schedule on-demand deliveries to public and private vertiports.
-      Let us automate the hassle of drone routing and civil aviation compliance and make your delivery a breeze.
+      Let us automate the complexities of aerial logistics and civil aviation compliance and make your delivery a breeze.
   - tag: access
     icon: Icon-vtolcargo.svg
     title: Vertiport <span>scheduling</span>
     content: |
-      Add a vertiport to our network to improve your own logistics, or open it up to the public to reach more customers.
-      Send cargo to any other public vertiport on the network.
+      Add a vertipad (or a dozen) to our network and get instant reservations from other customers and businesses on the network. Link your
+      business to the rapid cargo delivery network.
   - tag: control
     icon: Icon-vtolcargo.svg
     title: VTOL Asset <span>management</span>
     content: |
       Manage your vertiports and aircraft with our one-stop-shop interface. Register, group, delegate, and maintain assets with ease.
       Elevate your business with configurable pricing models and detailed analytics.
-  - tag: compliant
+  - tag: compliance
     icon: Icon-vtolcargo.svg
     title: U-space <span>Integration</span>
     content: |
-      We keep a close eye to each U-space regulation change and adapt quickly, staying ahead of markets implementation.
+      We're currently developing with the goal of U-space certification, so that we may coordinate with other service providers and offer the final say in flight authorization.

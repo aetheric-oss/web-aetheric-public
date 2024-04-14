@@ -11,13 +11,13 @@
     <div class="container-fluid">
         <div class="container pt-5 text-center">
             <h2>
-                One platform to manage, distribute and monitor your VTOL fleet
+                One platform to manage and monitor your VTOL fleet
             </h2>
             <p class="mx-auto" style="max-width: 800px">
                 Drive revenue, reduce costs, and manage your VTOL business on
-                one platform. Use Aetheric for managing and operating your AAM
-                activities, automate flights, manage your vertiports, do flight
-                planning, view monitoring & statistic.
+                one platform. Use our <b>Hangar</b> software to onboard and manage your assets.
+                Automate flights, set dynamic pricing models, book itineraries,
+                and dive into analytics.
             </p>
         </div>
         <img
@@ -32,33 +32,23 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-6 p-md-5 p-3">
-                <h2>Benefit from our Hangar</h2>
+                <h2>Benefit from our Hangar software</h2>
                 <div style="max-width: 700px">
                     <p>
-                        Experience the user friendly portal that gives you
-                        excess to our complex structure of microservices. The
-                        system is designed to fit your needs. Rather you have an
-                        entire fleet and want a system that will help you manage
-                        your entire team including a rights system, large asset
-                        volume and plan and fly numerous flights per day. Or you
-                        want to manage your vertiport. The possibilities are at
-                        your grasp.
+                        An onramp to the VTOL network.
+                        Onboard and manage your aircraft and vertiports. Set
+                        dynamic pricing models, book itineraries, and store
+                        essential documentation. Manage personnel, permissions,
+                        and stay in compliance. View detailed analytics and
+                        schedules for your public and private vertiports.
                     </p>
-                    <h5 class="mb-0">A complex structure made simple</h5>
+                    <h5 class="mb-0">Not just a network</h5>
                     <p class="mt-0">
-                        The architecture acknowledges the existence of other
-                        Providers of Service (PSUs), that vertiports and
-                        aircraft will be owned and operated by various companies
-                        and individuals, and that compliance with civil aviation
-                        authority differs from region to region.
-                    </p>
-                    <h5 class="mb-0">Working towards U-space compliance</h5>
-                    <p class="mt-0">
-                        Looking at the latest U-space regulation guidelines we
-                        are close to being a ... and aim to get U-space
-                        certified. Meaning we can not only manage your flights,
-                        after certification we can also authorize your flights
-                        within our region.
+                        Our goal with the Hangar software is to enable businesses
+                        of any scale to easily join the VTOL industry. Whether you
+                        have a single aircraft or a fleet, a vertipad or a vertiport,
+                        Hangar is being designed to make VTOL entrepreneurship
+                        straightforward and accessible.
                     </p>
                 </div>
             </div>
@@ -76,8 +66,8 @@
     <div class="container text-center">
         <h2>Built for VTOL businesses</h2>
         <p class="mx-auto" style="max-width: 600px">
-            Access an ecosystem of tech solutions to level up your VTOL business
-            or seamlessly connect to one of the microservices.
+            Access an ecosystem of tech solutions to level up your
+            business and connect seamlessly to the VTOL network.
         </p>
     </div>
 
@@ -90,9 +80,8 @@
             The future of travel needs to be more adaptive, efficient and agile
         </h2>
         <p class="mx-auto" style="max-width: 600px">
-            In this early stage of VTOL operations, the proposed open-source
-            ecosystem attempts to capture the future of advanced aerial mobility
-            as best it could be.
+            In this early stage of VTOL operations, our open-source
+            ecosystem captures our vision for the future of advanced aerial mobility.
         </p>
         <div class="d-flex flex-wrap justify-content-center gap-2">
             <div class="tag fs-6">Collaboration</div>

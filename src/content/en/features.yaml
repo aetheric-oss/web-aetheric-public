@@ -1,46 +1,37 @@
 items:
-  - title: Flight planning
+  - title: Multicloud
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
-  - title: Multi-cloud
+      We use cloud computing services from more than one region to ensure high availability and redundancy.
+  - title: Automated Itineraries
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
+      From a simple query, we can rapidly generate complete itineraries with multi-flight routing, vertiport booking, and aircraft selection.
+  - title: Flight Routing
+    content: |
+      Our itineraries safely avoid restricted zones and pre-existing flight paths, using the shortest path to get from A to B.
   - title: Microservices
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
-  - title: Connectivity
+      Our microservice approach allows us to scale our services to meet demand.
+  - title: Asset Onboarding
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
-  - title: Legal
+      We're building flows for you to register compliant aircraft, vertiports, and hangars to our network.
+  - title: Asset Configuration
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
-  - title: Rideshare Ready
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
-  - title: Safe
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
+      Asset owners can set permissions and dynamic pricing models for their aircraft, vertiports, and hangars.
   - title: Telemetry
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
-  - title: U-space Integration
+      We capture and process network Remote ID telemetry from aircraft participating in our network.
+  - title: Automated Delivery
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
-  - title: Automated flight plans
+      Our network aims to completely automate the delivery process in tandem with autonomous drone technology.
+  - title: U-space
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
-  - title: Secure
+      We are steadily building out our U-space capability with the goal of applying for certification as a U-space Service Provider (USSP).
+  - title: Safety
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
-  - title: GPS
+      Safety in development practice and in production are our top priority. Our automated workflows keep our code compliant.
+  - title: Confirmations & Notifications
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
-  - title: Flight Management
+      Get itinerary confirmations and view the status of your delivery. Get notified when assets are nearing end of their certification period.
+  - title: Rideshare
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
-  - title: Asset Monitoring
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
-  - title: Advanced Pricing
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan maximus ligula
+      A system designed for cargo delivery can be adapted for the most precious cargo - people.
