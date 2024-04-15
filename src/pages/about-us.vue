@@ -28,7 +28,7 @@
 
     <div class="container py-5 d-flex flex-wrap">
         <div class="col">
-            <h2>2021</h2>
+            <h2>It began in 2021...</h2>
             <p>
                 Aetheric proudly traces its origins to the organization <a href="https://arrowair.com" alt="Arrow DAO website">Arrow DAO</a>.
                 Founded during a time of rapid advancement in drone and passenger VTOL technology,

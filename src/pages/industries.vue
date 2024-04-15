@@ -32,7 +32,7 @@
     <div class="container-fluid">
         <div class="container pt-5">
             <div class="row text-center">
-                <h2>Be 1<sup>st</sup></h2>
+                <h2>Be First</h2>
                 <p class="mx-auto" style="max-width: 600px">
                     The AAM industry opens up new possibilities and new business models.
                     Be an early adopter and elevate your industry.
