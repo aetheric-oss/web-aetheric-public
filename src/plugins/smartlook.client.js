@@ -1,23 +1,16 @@
-import { onLoad } from "#imports";
+export default defineNuxtPlugin((nuxtApp) => {
+  const { smartlookId } = useRuntimeConfig().public;
 
-export default () => {
-  onLoad(() => {
-    window.smartlook ||
-      (function (d) {
-        var o = (smartlook = function () {
-            o.api.push(arguments);
-          }),
-          h = d.getElementsByTagName('head')[0];
-        var c = d.createElement('script');
-        o.api = new Array();
-        c.async = true;
-        c.type = 'text/javascript';
-        c.src = 'https://web-sdk.smartlook.com/recorder.js';
-        h.appendChild(c);
-      })(document);
-
-    smartlook('init', '8cb5dedb29eece98911dfa11592e5de2b3957c3a', {
-      region: 'eu',
-    });
+  useHead({
+    script: [
+      {
+        hid: "smartlook",
+        children:
+          'window.smartlook||(function(d) { var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName("head")[0]; var c=d.createElement("script");o.api=new Array();c.async=true;c.type="text/javascript"; c.charset="utf-8";c.src="https://web-sdk.smartlook.com/recorder.js";h.appendChild(c); })(document); smartlook("init", ' +
+          '"' + smartlookId + '"' +
+          ', { region: "eu" });',
+        async: true,
+      },
+    ],
   });
-};
+});

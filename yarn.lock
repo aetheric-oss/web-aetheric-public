@@ -782,7 +782,7 @@
     unimport "^3.7.1"
     untyped "^1.4.2"
 
-"@nuxt/kit@3.11.2", "@nuxt/kit@^3.10.2", "@nuxt/kit@^3.10.3", "@nuxt/kit@^3.11.1", "@nuxt/kit@^3.11.2":
+"@nuxt/kit@3.11.2", "@nuxt/kit@^3.10.2", "@nuxt/kit@^3.10.3", "@nuxt/kit@^3.11.1", "@nuxt/kit@^3.11.2", "@nuxt/kit@^3.9.3":
   version "3.11.2"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.11.2.tgz#dfc43c05992691bcd6aa58c14f88cf43e3abb788"
   integrity sha512-yiYKP0ZWMW7T3TCmsv4H8+jEsB/nFriRAR8bKoSqSV9bkVYWPE36sf7JDux30dQ91jSlQG6LQkB3vCHYTS2cIg==
@@ -4707,6 +4707,14 @@ nuxi@^3.11.1:
   integrity sha512-AW71TpxRHNg8MplQVju9tEFvXPvX42e0wPYknutSStDuAjV99vWTWYed4jxr/grk2FtKAuv2KvdJxcn2W59qyg==
   optionalDependencies:
     fsevents "~2.3.3"
+
+nuxt-calendly@^0.1.18:
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/nuxt-calendly/-/nuxt-calendly-0.1.18.tgz#648d351e03b426b012d292b09ffd8ce4e1adb3b2"
+  integrity sha512-uf1fJ5LR47Eao5k0o/QsmvwnwZMvd9BTShD8LKWVqI53fc2eSTFCsogbyhXyqXGJbSudPvuW5Z/uVIjDA73ZDg==
+  dependencies:
+    "@nuxt/kit" "^3.9.3"
+    defu "^6.1.4"
 
 nuxt@^3.10.0:
   version "3.11.2"
