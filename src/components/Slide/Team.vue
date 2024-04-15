@@ -19,7 +19,7 @@
                         through open-source designs.
                     </h3>
                     <a href="https://www.arrowair.com" target="_blank"
-                        ><div class="btn btn-info">Visit Arrow DAO</div></a
+                        ><div class="btn btn-outline-primary">Visit Arrow DAO</div></a
                     >
                 </div>
             </div>

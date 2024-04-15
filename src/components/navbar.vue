@@ -66,7 +66,7 @@
                     style="margin-right: 20px"
                     >Get a 1-on-1</router-link
                 >
-                <router-link to="/contact" class="btn btn-info"> Get in touch </router-link>
+                <router-link to="/contact" class="btn btn-outline-primary"> Get in touch </router-link>
             </div>
         </div>
     </nav>

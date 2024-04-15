@@ -2,7 +2,7 @@
 @import "bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
-@import "fly_arrow_variables";
+@import "aetheric_variables";
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "bootstrap/scss/variables";
@@ -46,4 +46,4 @@ $utilities: map-merge($utilities,
 
 // 8. Custom FlyArrow.io class overrides
 @import "arrow-root.css";
-@import "fly_arrow";
+@import "aetheric";

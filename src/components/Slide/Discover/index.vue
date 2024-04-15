@@ -133,7 +133,7 @@
                 <button
                     v-for="(item, index) in discover.items"
                     type="button"
-                    class="btn btn-info me-1 mb-0"
+                    class="btn btn-outline-primary me-1 mb-0"
                     data-bs-toggle="offcanvas"
                     :data-bs-target="'#' + item.id"
                 >
