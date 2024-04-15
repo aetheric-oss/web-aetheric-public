@@ -1,50 +1,5 @@
 <template>
-    <div
-        class="container-fluid px-2 px-sm-3 px-xxl-5 pt-3 pt-lg-5 pb-5 text-light bg-top-point"
-    >
-        <div class="container">
-            <div class="row">
-                <div class="col-8 col-sm-12 col-md-7 col-xl-6">
-                    <h1>The future of AAM is automated</h1>
-                    <p class="fs-3">
-                        Simplify the process of managing and monetizing your
-                        assets. We handle scheduling, routing, airspace
-                        management, and compliance so you can easily connect
-                        communities and reach more customers.
-                    </p>
-                    <a
-                        class="btn btn-primary mb-3 mt-1 me-1"
-                        href="/1On1"
-                        role="button"
-                        >Schedule 1-on-1</a
-                    >
-                    <a
-                        class="btn btn-outline-primary mb-3 mt-1"
-                        href="/features/"
-                        role="button"
-                        >Features</a
-                    >
-                </div>
-                <div class="col-4 col-sm-12 col-md-5 col-xl-6">
-                    <img
-                        src="/img/drone.png"
-                        width="650px"
-                        height="auto"
-                        alt=""
-                    />
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="pt-5 pb-0 col-12 px-5 position-relative">
-                <img
-                    class="w-100"
-                    src="/img/display-hangar.webp"
-                    alt="Aetheric software"
-                />
-            </div>
-        </div>
-    </div>
+    <SlideBanner/>
     <div class="container-fluid pb-5">
         <div class="container pb-3 text-center">
             <h2>Kickstart your VTOL management</h2>
@@ -56,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div
-                    class="col p-3 bg-light rounded mx-2 mb-sm-2"
+                    class="col p-3 bg-light rounded mx-2 mb-2"
                 >
                     <h3>Discover</h3>
                     <p>
@@ -72,7 +27,7 @@
                     >
                 </div>
                 <div
-                    class="col p-3 bg-light rounded mx-2 mb-sm-2"
+                    class="col p-3 bg-light rounded mx-2 mb-2"
                 >
                     <h3>Understand</h3>
                     <p>

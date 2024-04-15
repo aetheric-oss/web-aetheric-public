@@ -13,6 +13,7 @@
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
     "nuxt": "^3.10.0",
+    "nuxt-calendly": "^0.1.18",
     "sass": "^1.58.3",
     "sass-loader": "^13.2.0"
   }

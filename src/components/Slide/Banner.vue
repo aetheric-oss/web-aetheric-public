@@ -1,34 +1,44 @@
 <template>
     <div
-        class="container-fluid px-2 px-sm-3 px-xxl-5 pt-3 pt-lg-5 pb-0 text-light bg-gradient"
+        class="container-fluid px-2 px-sm-3 px-xxl-5 pt-3 pt-lg-5 pb-0 text-light bg-top-point"
     >
+        <div class="container container-md-fluid">
         <div class="row mx-xl-2">
-            <div class="col-8 col-sm-9 col-md-7 col-xl-6">
-                <h1>The future of AAM is</h1>
+            <div class="col-12 col-sm-9 col-md-7 col-xl-6">
+                <h1>The future of AAM is automated</h1>
                 <p class="fs-3">
                     Simplify the process of managing and monetizing your assets.
-                    We handle scheduling, routing, airspace management, and compliance so you can easily connect communities and reach more customers.
+                    We handle scheduling, routing, airspace management, and
+                    compliance so you can easily connect communities and reach
+                    more customers.
                 </p>
-                <div class="col-12 col-sm-7 col-xl-9">
-                    <ContentInterestFormLink
-                        class="col me-2 my-1 btn btn-secondary"
-                        >Request a meeting</ContentInterestFormLink
-                    >
-                </div>
+                <nuxt-link
+                    class="btn btn-primary mb-3 mt-1 me-1"
+                    to="/1On1"
+                    role="button"
+                >
+                    Schedule 1-on-1
+                </nuxt-link>
+                <nuxt-link
+                    class="btn btn-outline-primary mb-3 mt-1"
+                    href="/features/"
+                    role="button"
+                >
+                    Features
+                </nuxt-link>
             </div>
-            <div class="col-4 col-sm-3 col-md-5 col-xl-6">
+            <div class="col-12 col-sm-3 col-md-5 col-xl-6">
                 <img src="/img/drone.png" width="650px" height="auto" alt="" />
             </div>
         </div>
 
-        <div
-            class="m-auto pt-3 pb-0 col-12 col-xl-9 col-xxl-6 position-relative"
-        >
+        <div class="pt-md-5 pb-0 col-12 px-md-5 position-relative">
             <img
                 class="w-100"
-                src="/img/flyarrow-software.png"
-                alt="FlyArrow software"
+                src="/img/display-hangar.webp"
+                alt="Aetheric software"
             />
+        </div>
         </div>
     </div>
 </template>
