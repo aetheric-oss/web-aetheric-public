@@ -1,0 +1,59 @@
+$black: #181c27;
+$black-rgb: 24, 28, 39;
+$white: #fff;
+$white-rgb: 100, 100, 100;
+$light: #f1f4ff;
+$light-rgb: 241, 244, 255;
+$gray-dark: #3d414c;
+$gray-dark-rgb: 61, 65, 76;
+$secondary: #2abb94;
+$secondary-rgb: 42, 187, 14;
+$primary: #ff5E45;
+$primary-rgb: 255, 98, 74;
+$info: $secondary;
+$info-rgb: $secondary-rgb;
+$link-color: $white;
+$link-color-rgb: $white-rgb;
+
+$red: #c22e17;
+$teal: #2abb94;
+$purple: #5060fe;
+$pink: #da57b7;
+$yellow: #d9b16d;
+$salmon: #ffb2a2;
+$orange: #e08d48;
+$magenta: #ab6397;
+$blue: #432198;
+$indigo: #693dd4;
+
+$body-color: $black;
+$body-color-rgb: $black-rgb;
+$body-bg: $white;
+$body-bg-rgb: $white-rgb;
+$border-radius: 50px;
+$body-secondary-color: #545a6b;
+
+$spacer: 2rem;
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer * 1.5,
+    4: $spacer * 2,
+    5: $spacer * 2.5,
+);
+
+$font-size-base: 1rem;
+
+$headings-font-family: 'Poppins', sans-serif;
+$headings-font-weight: 700;
+$h1-font-size: calc(($font-size-base * 1.5) + (#{2.5} * 1.5vw));
+$h2-font-size: calc(($font-size-base * 1.2) + (#{1.5} * 1.5vw));
+$h3-font-size: calc(($font-size-base * 1) + 0.5vw);
+
+// cards
+$card-bg: $light;
+$card-border-width: 0;
+$card-spacer-x: $spacer;
+$card-spacer-y: $spacer;
+$card-height: 100%;

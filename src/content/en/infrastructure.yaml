@@ -1,0 +1,39 @@
+banner:
+  title: Dynamic, rapid, point-to-point transit that flies above and beyond the competition.
+
+title: How does this work?
+subtitle: An insight into our open-source software and infrastructure setup.
+items:
+  - tag: Database
+    title: Secure Storage
+    content: |
+      Our database uses a secure and fast storage solution that leverages caching solutions for faster response times.
+      This ensures that data is stored safely, is highly fault tolerant, and can be accessed quickly, with frequently accessed data stored in
+      a cache for faster retrieval. By taking advantage of these technologies, we can provide our users with a
+      fast and secure database experience.
+  - tag: Servers
+    title: Regionally Served
+    content: |
+      We utilize a robust microservice approach running on a multi-cloud platform allowing us to use regional edge servers
+      for faster response times. To ensure high availability, we use autoscaling clusters that adjust resources
+      based on demand. These technologies enable us to provide a seamless user experience.
+  - tag: Application
+    title: Shipper & Hangar UI
+    content: |
+      It starts with the client's needs. Shippers and operators use our user-friendly interfaces to make
+      deliveries and manage assets (aircraft, vertiports, hangars, and more!).
+  - tag: Application
+    title: Scheduling
+    content: |
+      Instant itinerary creation. Automated flight routing, regional compliance, aircraft selection, and vertiport booking. Schedule
+      deliveries with your fleet (or with aircraft for hire) in just a few taps. Leave the complexities of aerial logistics and compliance to us,
+      so you can take to the sky faster.
+  - tag: Application
+    title: Integrated Payments
+    content: |
+      Configure your dynamic pricing models to set fees per flight. We'll handle payments from the customer, taking only a modest fee for managing the flight.
+  - tag: Community
+    title: Development
+    content: |
+      We originated from an open-source community, meaning all source code is available for public view, and we'll continue to develop in the open. We do this for transparency, to promote ethical decision-making, and to allow public audit.
+      We want the public to see for themselves that their data is safe, and that we don't bias our software in favor of specific companies or demographics.

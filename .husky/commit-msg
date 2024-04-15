@@ -1,0 +1,9 @@
+#!/bin/sh
+## DO NOT EDIT!
+# This file was provisioned by OpenTofu
+# File origin: https://github.com/aetheric-oss/tofu-github/tree/main/src/modules/vars/templates/nuxt/all/.husky/commit-msg
+
+. "$(dirname -- "$0")/_/husky.sh"
+
+export COMMITLINT_CHECK=${1}
+make commitlint-test

@@ -1,0 +1,38 @@
+items:
+  - question: What makes this product different from any of the other drone scheduling apps we've seen?
+    answer: |
+      Our product was designed for itinerary planning involving multiple operators. We completely handle flight routing, factoring in deadhead flights, flight restrictions, no-fly zones, and pre-existing flight paths. We handle vertiport booking at every point, coordinating with different owners.
+
+      Our product wants to connect you with other entrepreneurs. We broker flights between vertiports owned by different parties, dynamically reserving pairs of vertipad landing times. We identify the most suitable drones and can (if enabled) auto-assign aircraft to do the delivery. It’s a hands-off way to generate traffic for your VTOL assets.
+
+      Our product is not just for the consumer of delivery services - it's for the entrepreneur. It's an onramp to the skies. You can own a drone or a dozen. You can own a vertipad on the roof of an apartment complex, or the multi-story vertiport at the center of downtown. Our system will be easy to join with well-designed user interfaces, and your assets will rapidly be generating income.
+  - question: What's the roadmap for the product?
+    answer: |
+      One goal is a completely autonomous drone delivery system. Someone requests a delivery. Our system completely handles itinerary routing, including assignment of the most suitable drone for the job.
+
+      The assigned drone would acquire its work orders from our network. It would detach from a charging platform, pick up a standardized container with a standardized mechanism, similarly detach it at the destination, and fly to its next destination - or back to charging. Our system is designed with this in mind.
+
+      The vertiports themselves might use conveyors to move the delivered parcels into a holding area, or directly to a pre-assigned locker below the vertipad.
+  - question: So you're a software product. Who will be providing the drones and vertiports?
+    answer: |
+      We're laying the software groundwork for the AAM market. We think if we can offer a streamlined, simple-to-understand entrance to the market, and invitingly low fees, then entrepreneurs will naturally bring the hardware with them.
+      It would be self-reinforcing: the more vertiports and drones on the network, the more attractive the network would become. Regulated competition between aircraft and vertiport providers would aid in keeping costs low for the customer.
+  - question: What if there are no vertiports on the network? How will drones work?
+    answer: |
+      Our system is predicated on the concept of certified vertiports for takeoff and landing. However, we haven't ruled out improvised landing zones, especially in the case of an emergency.
+  - question: How have you funded development? Has anyone invested in your product?
+    answer: |
+      We developed this project at first through the support of an organization called Arrow Air. They have a substantial grant pool and we've developed what we have so far through their generosity.
+      When we wanted to turn the project into a business, they were very open to the idea and provided us with a funding round. They're our first investor and non-owner shareholder.
+  - question: What's the benefit of being open-source?
+    answer: |
+      We originated from an open-source community, meaning all source code is available for public view, and we'll continue to develop in the open. We do this for transparency, to promote ethical decision-making, and to allow public audit.
+      We want the public to see for themselves that our software doesn't sell their data unknowingly or tilt the market unethically in favor of specific companies or demographics.
+  - question: How will you ensure your product isn't stolen?
+    answer: |
+      It's a good question. We are currently more accurately "source-available". You can see our codebase on GitHub. Our legal protection is a BUSL license, which will transition to an AGPL license. This type of license means that someone else can indeed copy our code for their product, or use it as a backend (server only) for another product. However the terms of the license stipulate that their product must also be open-sourced. This usually dissuades a company from making a clone of the product, and instead encourages support to the existing one. We hope to use the license as a tool to focus support onto our project, and in time may opt to move to an even more permissive license.
+  - question: Where are you planning on launching your product first?
+    answer: |
+      Wherever it is, we want to really put down roots and develop a strong program, and then expand from there. We’re looking for a place where we can have reliable, consistent dialogue with the stakeholders.
+      Any country in the EU embracing the U-Space standard is fair, especially those countries with geographically challenging terrain that can benefit tremendously from drone delivery (and eventually passenger rideshare).
+      From the non-EU side, we also have interest from parties in rural West Texas which could be a great opportunity for us to gain traction in the states.

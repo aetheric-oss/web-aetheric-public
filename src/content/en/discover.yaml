@@ -1,0 +1,88 @@
+title: Elevate your industry
+introduction: Discover how your industry can benefit from fast and affordable cargo transport on our platform.
+items:
+  - id: supply-chain
+    title: Supply Chain
+    subtitle: Speed and flexibility never seen before.
+    content: |
+      <p>
+        Like water through a stream, rapid and frequent VTOL flights can flow seamlessly through your
+        supply chain, connecting your points of interest with speed and flexibility. With our advanced scheduling
+        and asset management tools, you have direct control over your VTOL fleets. Get your cargo to its
+        destination on time and in perfect condition.
+      </p>
+      <p>
+        This level of control over your supply chain gives you the power to adapt to changing market demands and
+        respond quickly to unforeseen events. By using our VTOL cargo delivery platform, you can gain the
+        competitive edge you need to succeed in today's fast-paced business environment.
+      </p>
+  - id: rural-living
+    title: Rural Living
+    subtitle: VTOL aircraft offer fast and affordable delivery to remote destinations, without expensive road infrastructure.
+    content: |
+      <p>
+          Add a vertipad to your town, resort, homestead, or campground and get the supplies you need
+          fast! Vertical-takeoff-and-landing (VTOL) drones can pick up and deliver cargo from a pad no larger than
+          a parking space. Our aerial network is a great solution for remote or geographically isolated locales,
+          cheaply and securely connecting communities kept apart by forests, deserts, rivers, lakes, mountains, or
+          scarce infrastructure.
+      </p>
+  - id: humanitarian
+    title: Humanitarian
+    subtitle: Rapid delivery of essential supplies to undeveloped regions.
+    content: |
+      <p>
+          Supply routes measured in minutes instead of hours. Bypass difficult topography and unreliable road
+          conditions to deliver aid where it's needed most. Vertical-takeoff-and-landing (VTOL) drones can pick up
+          and deliver cargo from a clearing no larger than a parking space, requiring no costly road
+          infrastructure or airports. Elevate your organization's disaster relief programs and field clinics with
+          deliveries of vital supplies, vaccines, water samples, and blood, occurring at the speed of flight.
+      </p>
+  - id: agriculture
+    title: Agriculture & Livestock
+    subtitle: Reach further afield
+    content: |
+      <p>
+          Aerial delivery networks are an optimal solution for farms and homesteads. Rapidly and reliably deliver
+          hardware, groceries, and other goods regardless of road conditions. Cut your delivery time with direct aerial
+          routes and save on refrigeration costs. Optionally deploy your own cargo drones for greater control over
+          your deliveries.
+      </p>
+  - id: parcel-delivery
+    title: Parcel Delivery
+    subtitle: Ship securely with chain of custody.
+    content:
+      <p>
+          Packages are scanned at every step of the journey. On pickup, a bill of lading is generated for you and
+          your customers' records. Cut your delivery time with direct aerial routes and reach more customers in
+          rural areas. Optionally deploy your own cargo drones for greater control over your deliveries.
+      </p>
+  - id: medical-support
+    title: Medical Support
+    subtitle: Shave valuable minutes, save precious lives.
+    content:
+      <p>
+        Leave behind the constraints of traditional transportation methods and embrace increased speed and
+        reliability in delivering critical care.
+      </p>
+      <p>
+        A rapid, secure, and reliable supply chain to clinics, hospitals, and rural doctors.
+      </p>
+  - id: infrastructure
+    title: Infrastructure
+    subtitle: Economical access for new and existing communities.
+    content:
+      <p>
+          For municipalities with a restricted budget, traditional road infrastructure is expensive to build and
+          even more expensive to maintain.
+      </p>
+      <p>
+          In challenging climates and topographies, towns are commonly isolated by storms, floods, rock slides, and
+          road debris. In these circumstances, aerial access can make an enormous difference to a small community.
+      </p>
+      <p>
+          For growing communities without established asphalt roads or highways, aerial cargo and rideshare offer
+          faster, more reliable, and cheaper access to the community than traditional road infrastructure. Connect
+          your island, desert, forest, and mountain community to the world without the delay and environmental
+          impact of road, bridge, and tunnel construction.
+      </p>

@@ -1,0 +1,37 @@
+items:
+  - title: Multicloud
+    content: |
+      We use cloud computing services from more than one provider and region to ensure high availability and redundancy.
+  - title: Automated Itineraries
+    content: |
+      From a simple query, we can rapidly generate complete itineraries with multi-flight routing, vertiport booking, and aircraft selection.
+  - title: Flight Routing
+    content: |
+      Our itineraries safely avoid restricted zones and pre-existing flight paths, finding the best path to the destination.
+  - title: Microservices
+    content: |
+      Our microservice approach allows us to scale our services to meet demand.
+  - title: Asset Onboarding
+    content: |
+      We're building flows for you to register compliant aircraft, vertiports, and hangars to our network.
+  - title: Asset Configuration
+    content: |
+      Asset owners can set various configurations, permissions, and dynamic pricing models for their aircraft, vertiports, and hangars.
+  - title: Telemetry
+    content: |
+      We capture and process network Remote ID telemetry from aircraft participating in our network.
+  - title: Automated Delivery
+    content: |
+      Our network aims to completely automate the delivery process in tandem with autonomous drone technology.
+  - title: U-space
+    content: |
+      We are steadily building out our U-space capability with the goal of applying for certification as a U-space Service Provider (USSP).
+  - title: Safety
+    content: |
+      Safety in development practice and in production are our top priority. Our experience, culture, and practices combine to keep you and your cargo safe.
+  - title: Confirmations & Notifications
+    content: |
+      Get itinerary confirmations and view the status of your delivery. Get notified when assets are nearing end of their certification period.
+  - title: Rideshare
+    content: |
+      A system designed for cargo delivery can be adapted for the most precious cargo - people.
