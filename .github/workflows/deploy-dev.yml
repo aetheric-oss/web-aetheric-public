@@ -7,7 +7,7 @@ name: Deploy Develop
 on:
   pull_request:
     branches:
-      - staging
+      - develop
   workflow_dispatch:
 
 jobs:
