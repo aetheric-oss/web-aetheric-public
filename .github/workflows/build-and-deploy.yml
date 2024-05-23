@@ -25,7 +25,7 @@ jobs:
       id-token: write
       contents: read
     env:
-      AWS_S3_BUCKET: s3-${{ vars.ENVIRONMENT_ABBR }}-${{ vars.APP }}.${{ vars.DOMAIN }}
+      AWS_S3_BUCKET: s3-${{ vars.ENVIRONMENT_ABBR }}.${{ vars.DOMAIN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
