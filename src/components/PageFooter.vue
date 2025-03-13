@@ -18,8 +18,8 @@
             <div class="row pb-5 pt-5">
                 <div class="col-12 col-sm-6 col-md-4">
                     <h4>Address & contact</h4>
-                    Keizersgracht 520 H<br />
-                    1017EK Amsterdam <br />
+                    Lepelaar 6 A<br />
+                    1628 CZ Hoorn<br />
                     Netherlands, Europe<br />
 
                     <br />
