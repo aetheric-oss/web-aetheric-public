@@ -21,6 +21,7 @@ export default defineNuxtConfig({
           href: "https://fonts.gstatic.com",
           crossorigin: "anonymous",
         },
+        { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.ico' },
       ],
       script: [
         {
