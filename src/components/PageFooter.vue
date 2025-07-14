@@ -1,4 +1,4 @@
-<script setup>
+<script>
 import { Icon } from "@iconify/vue";
 </script>
 
@@ -27,7 +27,7 @@ import { Icon } from "@iconify/vue";
                     Netherlands, Europe<br />
                     <br />
 
-                    <a id="footer-mailus" href="mailto:info@aetheric.nl"
+                    <a id="footer-mail-us" href="mailto:info@aetheric.nl"
                         ><Icon style="font-size: 20px" icon="ph:envelope-simple-bold"></Icon> info@aetheric.nl</a
                     >
                 </div>
@@ -75,7 +75,7 @@ import { Icon } from "@iconify/vue";
     justify-items: center;
 }
 
-#footer-mailus {
+#footer-mail-us {
     display: inline;
     text-decoration: none;
     text-transform: none;
