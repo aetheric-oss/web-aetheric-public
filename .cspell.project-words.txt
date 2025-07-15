@@ -51,3 +51,6 @@ webp
 multicloud
 ussp
 Hoorn
+bluesky
+iconify
+hugeicons
