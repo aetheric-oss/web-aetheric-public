@@ -2,6 +2,8 @@
 # This file was provisioned by OpenTofu
 # File origin: https://github.com/aetheric-oss/tofu-github/tree/main/src/modules/vars/templates/nuxt/web/.github/workflows/build-and-deploy.yml
 
+---
+
 name: Build and deploy
 
 on:
@@ -25,7 +27,7 @@ jobs:
       id-token: write
       contents: read
     env:
-      AWS_S3_BUCKET: s3-${{ vars.ENVIRONMENT_ABBR }}-${{ vars.APP }}.${{ vars.DOMAIN }}
+      AWS_S3_BUCKET: s3-${{ vars.ENVIRONMENT_ABBR }}.${{ vars.DOMAIN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
